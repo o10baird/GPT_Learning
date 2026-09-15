@@ -1,0 +1,43 @@
+# Python environments
+.venv/
+**/.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data: keep README/placeholders, not payloads
+data/external/*
+data/raw/*
+data/interim/*
+data/processed/*
+!data/external/.gitkeep
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+
+# Model and experiment outputs
+models/
+mlruns/
+wandb/
+
+# Rendered/generated transient artifacts
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
