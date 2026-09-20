@@ -1,8 +1,14 @@
+---
+context_revision: 2
+last_updated: 2026-09-20
+progress_as_of: 2026-09-20
+---
+
 # Learning Context
 
 ## Purpose
 
-This file is the canonical cross-chat context for the year-long learning program. ChatGPT should use it for curriculum strategy and planning. Codex should use it to understand the learning plan when structuring or updating the Obsidian vault and related technical artifacts.
+This file is the canonical portable brief for the year-long learning program. It is designed to be understood in ChatGPT without direct repository or vault access. ChatGPT uses it for curriculum strategy, tutoring, and planning; Codex uses it for implementation and documentation maintenance. Detailed knowledge, source records, and live task status remain in the systems of record below.
 
 ## Current objectives
 
@@ -225,110 +231,135 @@ Use:
 - Git commits with meaningful messages
 - reproducible runs from a clean clone where practical
 
-## Obsidian conventions
+## Knowledge-management integration
 
-Recommended vault structure:
+The learning program uses **Unified Knowledge Vault** at
+`C:\Users\Ian_Baird\Obsidian_Vaults\Unified Knowledge Vault`.
 
-```text
-Learning/
-├── 00 Dashboard/
-├── 10 Courses/
-│   ├── USC SHIELD/
-│   ├── Coursera/
-│   └── OReilly/
-├── 20 Concepts/
-│   ├── Mathematics/
-│   ├── Statistics/
-│   ├── Machine Learning/
-│   ├── Causal Inference/
-│   ├── Computer Vision/
-│   ├── Networks/
-│   └── MLOps/
-├── 30 Literature/
-├── 40 Projects/
-├── 50 Learning Log/
-└── 90 Templates/
-```
+Its numbered folders organize notes by purpose. Curriculum phases and subjects are expressed through metadata, links, and Maps of Content (MOCs: curated topic indexes). Do not create a parallel top-level `Learning/` tree or mirror the repository hierarchy into the vault.
 
-Principles:
+| Material | Vault destination |
+|---|---|
+| Operational dashboards | `00 - Home` |
+| Unprocessed capture | `10 - Inbox` |
+| Weekly learning logs and course-session records | `20 - Moments/Learning Logs/YYYY` and `20 - Moments/Course Sessions` |
+| Program outcomes and finite deliverables | `30 - Projects/GPT Learning` |
+| Ongoing technical learning responsibility | `40 - Areas` |
+| Durable concepts and synthesized claims | `50 - Knowledge/Concepts` |
+| Course overviews and literature synthesis | `60 - Sources/Courses` and `60 - Sources/Literature Notes` |
+| Structured curriculum/resource inventories | `70 - Collections/Curriculum` |
+| Program navigation and subject MOCs | `80 - Atlas` |
+| Templates and metadata conventions | `99 - System` |
 
-- Course notes are temporary organizational structures.
-- Concept notes are the durable long-term knowledge layer.
-- Prefer one concept per note with links to related concepts.
-- Literature notes should synthesize sources in the user's own words rather than dump highlights.
-- Weekly learning logs should capture planned work, completed work, lessons learned, unresolved questions, technical problems, and next-week adjustments.
+### Verified entry points and implementation status
 
-## Current travel-adjusted schedule
+The following are implemented locally in this revision. Paths are relative to the vault root and identify local notes; they do not grant a chat access to the files.
 
-Travel: September 22-25, 2026.
+| Entry point | Vault-relative path |
+|---|---|
+| Learning dashboard | `00 - Home/Learning Dashboard.md` |
+| Enduring learning area | `40 - Areas/Technical Learning.md` |
+| Finite program | `30 - Projects/GPT Learning/GPT Learning 2026-2027.md` |
+| Prep deliverable | `30 - Projects/GPT Learning/Prep ML Workflow.md` |
+| Vision project brief | `30 - Projects/GPT Learning/Vision System.md` |
+| Graph/temporal project brief | `30 - Projects/GPT Learning/Graph-Temporal Project.md` |
+| MLOps capstone brief | `30 - Projects/GPT Learning/MLOps Capstone.md` |
+| Curriculum and outcome definitions | `80 - Atlas/Learning Program MOC.md` |
+| Resource inventory | `70 - Collections/Curriculum/GPT Learning Resources.md` |
+| SHIELD source overview | `60 - Sources/Courses/USC SHIELD.md` |
+| Course-session index | `20 - Moments/Course Sessions/Course Sessions.md` |
+| Workflow and handoff guide | `99 - System/Learning Workflow.md` |
+| Initial weekly review | `20 - Moments/Learning Logs/2026/2026-W38 Learning Review.md` |
+| Preserved schedule and readings | `20 - Moments/Learning Logs/2026/2026-09-20 Prep Planning Snapshot.md` |
 
-Near-term plan:
+Existing integration points include `80 - Atlas/Machine Learning MOC.md`, `80 - Atlas/Decision Science and Risk.md`, and `80 - Atlas/Strategy and Security.md`.
 
-- Sep 21: complete NumPy/pandas refresher/reference notebook
-- Sep 22: non-coding geometry review
-- Sep 23: non-coding eigenvalues/eigenvectors/SVD review
-- Sep 24: non-coding probability review
-- Sep 25: travel synthesis
-- Sep 26: Git/testing/reproducibility refresher
-- Sep 27: vectors, matrices, basis, rank
-- Sep 28: Bernoulli simulation + covariance/correlation/noise
-- Sep 29: mathematical checkpoint
-- Sep 30: dataset selection + exploratory analysis
-- Oct 1: baseline ML model
-- Oct 2: error analysis
-- Oct 3: make prep ML project reproducible
-- Oct 4: prep-phase retrospective
-- Oct 5-11: first formal week, dominated by USC SHIELD residency
+The program and prep project are active. The three future capstone briefs are marked `someday`: their note scaffolds exist, while datasets, final scope, success thresholds, implementations, and results remain open. Additional subject MOCs are deferred until enough notes justify them. The SHIELD overview records program context; it is not a verified syllabus.
 
-## Current reading assignments
+The shared `Basic Note.md` (concept), `Project.md`, `Literature Note.md`, and `Weekly Review.md` templates were extended in `99 - System/Templates`; `Course Session.md` was added. Existing filenames and core Templates configuration are retained.
 
-### NumPy/pandas refresher
-Use as reference while coding:
+### Canonical notes and source handling
 
-- NumPy Quickstart: basics, shape manipulation, copies/views, broadcasting
-- pandas *10 minutes to pandas*: object creation, viewing, selection, missing data, operations, merge, grouping, reshaping
+Use one canonical note per concept. Search available curated notes, aliases, and legacy material before proposing a new one; identify unverified titles and links as proposed.
 
-### Geometry
-*Mathematics for Machine Learning*, Chapter 3:
+Relevant legacy notes and review stubs can be processed during coursework. Consult `50 - Knowledge/Canonical Conflicts/Canonical Conflict Index.md` for relevant title conflicts. Preserve provenance using `source_vault`, `source_path`, and source links. Review stubs and routing notes are not established explanations or learning evidence; do not treat the entire migration backlog as a prerequisite for study.
 
-- §3.1 Norms
-- §3.2 Inner Products
-- §3.3 Lengths and Distances
-- §3.4 Angles and Orthogonality
-- §3.8 Orthogonal Projections
+Course-session records feed durable concept and source notes. Preserve source attribution; link learning reasoning to technical artifacts and Git architecture decision records. Keep each authoritative record in its designated system.
 
-### Matrix decompositions
-*Mathematics for Machine Learning*, Chapter 4:
+### Learning metadata and templates
 
-- §4.2 Eigenvalues and Eigenvectors
-- §4.4 Eigendecomposition and Diagonalization
-- §4.5 Singular Value Decomposition
-- optional: §4.6 Matrix Approximation
+The vault's `99 - System/Metadata Schema.md` remains authoritative for detailed metadata. This portable summary supplies conventions needed for planning:
 
-### Probability
-*All of Statistics*:
+- `program: gpt_learning` identifies program records.
+- `phase` uses a repository identifier: `00_prep`, `01_math_stats`, `02_classical_ml`, `03_causal_inference`, `04_network_science`, `05_deep_learning`, `06_computer_vision`, `07_graph_ml`, `08_temporal_graphs`, or `09_mlops`.
+- `learning_outcomes` is a list of stable identifiers from the outcome table below. Multiple outcomes may span phases.
+- `course` is a verified link to a course overview; `provider` records its known provider.
+- `repo_path` is relative to the repository root. `artifact_links` stays empty until actual evidence can be referenced.
+- Reuse the existing `type`, `status`, `up`, `related`, `citekey`, and `zotero_uri` properties.
+- A source's `reading_status` is `unread`, `reading`, or `read`; its note lifecycle `status` is separate.
+- Course overviews use `type: source` and `source_type: course`; sessions use `type: event`; weekly logs use `type: review`.
+- Weekly logs use an explicit ISO `week` and actual `date`. A completed review describes the record, not mastery of its outcomes.
+- Concept templates prompt for explanation, assumptions, a worked example, failure mode, evidence, and meaningful connections. Weekly reviews capture evidence, misconceptions, capacity, and next-week adjustments.
 
-- §1.5 Independent Events
-- §1.6 Conditional Probability
-- §1.7 Bayes' Theorem
-- §§2.1-2.4
-- §§3.1-3.3
+## Learning outcomes and evidence
 
-### Git refresher
-*Pro Git*, Chapter 2:
+| Phase or strand | Outcome identifier | Demonstration |
+|---|---|---|
+| Prep | `prep-reproducible-workflow` | Explain and reproduce a small NumPy/pandas-to-baseline workflow with appropriate checks. |
+| Mathematics/statistics | `math-stats-foundations` | Solve worked examples and connect them to model behavior and uncertainty. |
+| Classical ML | `classical-ml-evaluation` | Compare baseline and learned models, justify validation, and analyze errors/leakage. |
+| Causal inference | `causal-identification` | State a causal question and explain identification assumptions and sensitivity. |
+| Network science | `network-analysis` | Explain graph construction and interpret structural measures with caveats. |
+| Deep learning | `deep-learning-training` | Train a small model, diagnose optimization/generalization, and reproduce the run. |
+| Computer vision | `vision-error-analysis` | Evaluate a vision baseline, inspect failures, and discuss deployment limitations. |
+| Graph ML | `graph-ml-evaluation` | Compare graph/non-graph baselines and justify representation and split choices. |
+| Temporal graphs | `temporal-graph-validation` | Preserve temporal order and explain changing networks and leakage risks. |
+| MLOps | `mlops-reproducibility` | Package, test, reproduce, and monitor a model with a deployment/rollback plan. |
+| Integrated capstone | `integrated-capstone` | Combine methods into an explained, reproducible system with a limitations report. |
+| USC SHIELD | `shield-policy-integration` | Produce sourced analysis connecting technical evidence, uncertainty, strategy, and policy tradeoffs. |
 
-- §2.1 Getting a Git Repository
-- §2.2 Recording Changes to the Repository
-- §2.3 Viewing the Commit History
-- §2.4 Undoing Things
+These are program evidence expectations, not assertions of completed competence or official external-course assessment criteria.
 
-### Linear algebra
-*Mathematics for Machine Learning*, Chapter 2:
+For each substantial outcome, identify a concept explanation in the learner's own words, source synthesis, an applied artifact or analysis, assumptions/errors/remaining gaps, and a connection to another subject or project. Code-bearing work includes reproduction instructions and appropriate checks. One artifact may support several outcomes. Match the evidence to the subject: SHIELD may produce a sourced policy analysis rather than code.
 
-- skim §2.2 Matrices
-- read §2.4 Vector Spaces
-- read §2.5 Linear Independence
-- read §2.6 Basis and Rank
+Treat successful explanation, application, and evaluation as evidence; reading completion, generated solutions, scaffolds, and note counts alone are insufficient.
+
+## Current progress snapshot
+
+**Progress as of: 2026-09-20.** Source: the existing program context and a local setup/file review. This small snapshot is provided for chats without vault access; it is not live task status.
+
+- Current phase: `00_prep`.
+- Active deliverable: Prep ML Workflow; intended output is a reproducible public-data baseline with error analysis.
+- Confirmed system work: learning navigation, project briefs, source/resource indexes, templates, and repository integration guidance.
+- Coursework evidence: none identified in the setup review; no learning outcome is marked complete. The phase and project directories exist, but no exercise artifacts were found.
+- Near-term subjects: NumPy/pandas, Git/testing/reproducibility, linear algebra, probability/statistics, and SHIELD preparation.
+- Upcoming constraints from the preserved plan: travel September 22–25; October 5–11 dominated by the first SHIELD residency.
+- Open choices: public dataset, prediction question, metric, and actual SHIELD materials.
+- Latest review and detailed prep assignments: the dated vault notes listed above. Supply their content to a chat when specific assignments or progress are needed.
+
+Detailed dates and reading sections were preserved in the archived prep planning snapshot before being removed from this brief. Todoist project `GPT_Learning` remains the system of record for dated actions; it was not read or modified during this documentation integration. No task scheduling or account connection is implied.
+
+## Guidance for ChatGPT
+
+Use this document for program design and the latest dated progress evidence for execution context. Current explicit user instructions supersede older program guidance. Compare context revisions and progress dates; do not silently treat an older upload or conversation recollection as current state.
+
+Plan within the normal 6–8 hour weekly budget, including synthesis and review. Adjust independent study during SHIELD residency/live-session weeks.
+
+For each substantial assignment, specify its learning outcome, estimated effort, evidence of completion, and destination in Obsidian or Git. Prefer hints, questions, and diagnostics before complete exercise solutions unless the user requests a complete solution.
+
+When local files or services are unavailable, use the supplied context, label assumptions and proposed changes, and request only the missing material needed for the task. Distinguish content drafted in chat from changes actually saved. A local path, project name, or documented plugin does not establish access.
+
+At the end of a planning session that changes durable conventions, supply the exact documentation amendment for Codex and a concise handoff: context revision, progress-as-of date, completed changes/evidence, coursework implications, and remaining proposals or questions. Preserve the distinction between inspected evidence and user-reported progress.
+
+## Sharing context outside Codex
+
+Provide the current version of this file in the ChatGPT learning project's sources and paste the instruction block from [chatgpt_project_instructions.md](chatgpt_project_instructions.md) into its project instructions. Include the latest relevant dated review or source excerpt when progress or detailed assignments matter. In a standalone chat, supply the same context directly.
+
+Project sources and instructions can be shared across related chats, but a ChatGPT project does not itself provide access to the local repository or vault. See [official project documentation](https://learn.chatgpt.com/docs/projects).
+
+Local edits do not establish that uploaded copies were refreshed. After a durable revision, refresh the supplied copy and confirm its revision/date. Record synchronization as completed only when verified. If using a connected source, verify which version was retrieved.
+
+**External ChatGPT refresh status for revision 2:** pending; no project uploads, project instructions, or account/plugin settings were changed by this local integration.
 
 ## Workflow
 
@@ -374,4 +405,10 @@ Update this file when any of the following materially change:
 - repository conventions
 - Obsidian organization
 - major project definitions
-- current 2-4 week schedule
+- durable capacity constraints and the dated progress snapshot needed for cross-chat planning
+
+Update the context revision/date and record a concise change summary. Keep implementation statuses accurate; preserve detailed assignments before relocating them. Refresh the ChatGPT-supplied copy separately and report that refresh only when confirmed.
+
+## Revision history
+
+- **Revision 2 — 2026-09-20:** integrated learning with the existing Unified Knowledge Vault; added learning outcome/evidence expectations, verified entry points, metadata/template conventions, a dated progress snapshot, and explicit ChatGPT handoff rules. Preserved the previous schedule and reading assignments in the vault's dated prep planning snapshot.

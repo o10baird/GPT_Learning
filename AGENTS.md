@@ -84,8 +84,34 @@ When asked to build or modify the Obsidian vault:
 - favor concept-oriented notes over course-only notes
 - keep literature notes distinct from concept notes
 - link related concepts rather than duplicating explanations
-- keep weekly learning logs concise and execution-focused
+- keep weekly learning logs concise, dated, and evidence-focused; execution status remains in Todoist
+- use the existing numbered vault folders; express program/phase/subject relationships through metadata and MOCs
+- use the existing Basic Note, Project, Literature Note, and Weekly Review templates plus Course Session
+- preserve canonical concepts, source attribution, legacy provenance, and verified path-qualified links
+- keep future briefs and review stubs distinct from completed work or demonstrated learning
+- link Obsidian learning reasoning to repository technical decision records instead of duplicating authoritative records
 - do not mirror the Git repository structure into Obsidian
+
+## Cross-chat documentation and handoff
+
+Keep `docs/learning_context.md` understandable without repository or Obsidian access. It must contain essential program conventions, system responsibilities, the vault mapping, and learning-evidence criteria. The vault's Metadata Schema and templates remain authoritative for their detailed conventions; summarize the planning-relevant parts in the portable brief.
+
+When implementing a durable workflow or structural change:
+
+- Update `docs/learning_context.md` in the same change, recording its revision/date and a concise change summary.
+- Distinguish proposed, implemented, and verified items; verify paths before describing files as existing.
+- Preserve curriculum constraints, exact reading assignments when relocating them, and unrelated user content.
+- Preserve template filenames or repair their references when a change requires renaming.
+- Update affected README links and vault entry points so the changed workflow is discoverable.
+- Validate changed Markdown links, metadata, phase/outcome identifiers, and cross-system references as appropriate. Documentation-only changes do not require unrelated Python test runs.
+
+When preparing a handoff to ChatGPT, include the context revision, progress-as-of date, completed changes with artifact references, coursework implications, and remaining proposals or questions. Preserve user-reported versus directly inspected evidence. Do not equate code generation, scaffolds, note counts, or reading completion with mastery.
+
+If ChatGPT lacks current execution records, provide a compact dated snapshot derived from available evidence. Keep detailed logs in Obsidian and dated actions in Todoist. A snapshot in the portable brief is an explicitly dated export, not a second live tracker.
+
+Maintain `docs/chatgpt_project_instructions.md` as the short instruction block for the external ChatGPT learning project. Identify which sources need refreshing after a local revision. Report synchronization only when actually verified; editing local files does not refresh uploaded copies.
+
+Do not infer account access, task completion, or permission to change remote project settings from a path, project name, or plugin listed in documentation. When the work is a proposal, provide a concrete amendment and label it as proposed; when implementation is requested, apply authorized changes and accurately report their scope.
 
 ## Safety / data handling
 
