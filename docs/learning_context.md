@@ -1,5 +1,5 @@
 ---
-context_revision: 2
+context_revision: 3
 last_updated: 2026-09-20
 progress_as_of: 2026-09-20
 ---
@@ -33,6 +33,7 @@ Supporting foundations:
 
 - Formal 12-month learning program: October 2026 through September 2027
 - Normal independent-learning budget: 6-8 hours per week
+- Employer requirement: complete at least one Coursera course per federal fiscal-year quarter during the formal program year
 - USC SHIELD runs in parallel from October 2026 through April 2027
 - During USC residency/live-session weeks, USC replaces most independent technical study rather than being added on top
 
@@ -48,6 +49,12 @@ Current near-term emphasis:
 - Probability/statistics refresh
 - First reproducible classical-ML workflow
 - Preparation for the first USC SHIELD residency
+
+## Live syllabus convention
+
+The repository now maintains `docs/syllabus.md` as the live program-level syllabus and status document. It records the planned 12-month sequence, quarterly Coursera milestones, phase-level status, and inspected evidence at the program level. It must not duplicate Todoist's dated task execution or Obsidian's detailed learning logs. Update it when a phase starts/completes, a quarterly Coursera course changes status, inspected evidence supports an outcome update, SHIELD materially changes available capacity, or a major project/resource changes.
+
+For status updates in the syllabus, preserve the distinction between verified evidence, user-reported progress, plans, and assumptions. Course/reading completion alone is not evidence of mastery.
 
 ## Current learning sequence
 
@@ -411,4 +418,5 @@ Update the context revision/date and record a concise change summary. Keep imple
 
 ## Revision history
 
+- **Revision 3 — 2026-09-20:** added `docs/syllabus.md` as the live program-level syllabus/status artifact; recorded the quarterly Coursera completion constraint and maintenance rules that preserve Todoist and Obsidian as the execution/evidence systems of record.
 - **Revision 2 — 2026-09-20:** integrated learning with the existing Unified Knowledge Vault; added learning outcome/evidence expectations, verified entry points, metadata/template conventions, a dated progress snapshot, and explicit ChatGPT handoff rules. Preserved the previous schedule and reading assignments in the vault's dated prep planning snapshot.
