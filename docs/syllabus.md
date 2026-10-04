@@ -2,9 +2,9 @@
 title: GPT Learning Syllabus
 program: gpt_learning
 document_role: live_curriculum_status
-context_revision: 3
-last_updated: 2026-09-20
-progress_as_of: 2026-09-20
+context_revision: 4
+last_updated: 2026-10-04
+progress_as_of: 2026-10-04
 program_start: 2026-10-01
 program_end: 2027-09-30
 weekly_budget: 6-8 hours
@@ -28,15 +28,17 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 
 ## Current status
 
-**Progress as of 2026-09-20**
+**Progress as of 2026-10-04**
 
 - Current phase: `00_prep`
-- Program state: preparation before the formal October 2026 curriculum
+- Program state: preparation recovery overlapping the opening of the formal October 2026 curriculum
 - Active deliverable: Prep ML Workflow
 - Verified completed learning outcomes: none identified in the available repository/context evidence
 - Verified repository evidence: learning-program structure, project briefs, resource indexes, templates, environment conventions, and repository integration guidance exist
 - Current near-term focus: NumPy/pandas fluency, Git/testing/reproducibility, linear algebra, probability/statistics, and first reproducible classical-ML workflow
-- Known scheduling constraints: travel September 22–25; first USC SHIELD residency dominates October 5–11
+- Verified execution status: Todoist shows the Sep 21–Oct 4 prep tasks still open after an approximately one-week pause reported by the learner.
+- Recovery schedule: preserve Oct 5–11 for USC SHIELD preparation/residency; complete foundational backlog Oct 12–18 and Prep ML Workflow Oct 19–23; begin the Q1 Coursera course after prep closes.
+- Known scheduling constraint: first USC SHIELD residency dominates October 5–11
 - Detailed weekly-review evidence: **not inspected in this update**. The latest review identified by the portable context is `20 - Moments/Learning Logs/2026/2026-W38 Learning Review.md`; its contents must be supplied or connected before this file is updated from that evidence.
 
 ### Status vocabulary
@@ -88,7 +90,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 
 ## 12-month syllabus
 
-### Preparation — now through September 2026
+### Preparation recovery — through October 23, 2026
 
 **Primary outcome:** `prep-reproducible-workflow`
 
@@ -102,7 +104,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - first public-data baseline workflow
 - initial error analysis and reproducibility checks
 
-**Estimated effort:** 6–8 h/week, reduced during September 22–25 travel.
+**Estimated effort:** Oct 12–18 approximately 7 h; Oct 19–23 approximately 5.5 h, leaving capacity to begin the Q1 Coursera course that weekend. Oct 5–11 is reserved primarily for USC SHIELD.
 
 **Evidence of completion**
 - learner can explain the data flow and validation choices;
@@ -134,7 +136,9 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - USC SHIELD strategic/policy work
 
 **Planned progression**
-- October: graph representation, connectivity, NetworkX basics; keep independent load light around SHIELD residency/live sessions
+- October 5–11: SHIELD preparation/residency; no attempt to catch up technical backlog.
+- October 12–23: finish deferred prep foundations and the Prep ML Workflow.
+- October 24 onward: begin graph representation, connectivity, and NetworkX basics in *Applied Social Network Analysis in Python*.
 - November: centrality, network measures, DAGs, confounding, potential outcomes
 - December: network evolution/link prediction, course final work, certificate completion, synthesis
 
@@ -385,6 +389,7 @@ This table records only inspected or otherwise clearly identified program-level 
 |---|---|---|---|---|
 | 2026-09-20 | Program setup only | Repository structure, environment conventions, project briefs, vault integration guidance | repository + portable context | Infrastructure evidence; **not** evidence of technical mastery |
 | 2026-09-20 | `prep-reproducible-workflow` | No completed exercise artifact identified in available repository/context review | — | Active; completion not yet demonstrated |
+| 2026-10-04 | Prep execution status | Todoist inspection found all Sep 21–Oct 4 prep tasks still open; learner reported taking approximately the prior week off | Todoist project `GPT_Learning` | Schedule evidence only; no mastery inference |
 
 ## Maintenance rules
 
