@@ -1,7 +1,7 @@
 ---
-context_revision: 3
-last_updated: 2026-09-20
-progress_as_of: 2026-09-20
+context_revision: 4
+last_updated: 2026-10-04
+progress_as_of: 2026-10-04
 ---
 
 # Learning Context
@@ -333,18 +333,21 @@ Treat successful explanation, application, and evaluation as evidence; reading c
 
 ## Current progress snapshot
 
-**Progress as of: 2026-09-20.** Source: the existing program context and a local setup/file review. This small snapshot is provided for chats without vault access; it is not live task status.
+**Progress as of: 2026-10-04.** Source: the existing program context plus direct inspection of Todoist project `GPT_Learning` on 2026-10-04. This small snapshot is provided for chats without vault access; it is not a substitute for the latest Obsidian weekly review.
 
 - Current phase: `00_prep`.
 - Active deliverable: Prep ML Workflow; intended output is a reproducible public-data baseline with error analysis.
 - Confirmed system work: learning navigation, project briefs, source/resource indexes, templates, and repository integration guidance.
 - Coursework evidence: none identified in the setup review; no learning outcome is marked complete. The phase and project directories exist, but no exercise artifacts were found.
 - Near-term subjects: NumPy/pandas, Git/testing/reproducibility, linear algebra, probability/statistics, and SHIELD preparation.
-- Upcoming constraints from the preserved plan: travel September 22–25; October 5–11 dominated by the first SHIELD residency.
+- User-reported interruption: approximately the prior week was taken off for other priorities.
+- Verified Todoist execution state on 2026-10-04: all prep tasks originally due Sep 21–Oct 4 remained open.
+- Recovery plan now reflected in Todoist: Oct 5–11 remains focused on SHIELD preparation/residency; foundational backlog is rescheduled across Oct 12–18 (~7 h); the Prep ML Workflow is rescheduled across Oct 19–23 (~5.5 h); the Q1 Coursera course begins after prep closes while retaining the Dec 15 target.
+- Upcoming constraint: October 5–11 is dominated by the first SHIELD residency.
 - Open choices: public dataset, prediction question, metric, and actual SHIELD materials.
 - Latest review and detailed prep assignments: the dated vault notes listed above. Supply their content to a chat when specific assignments or progress are needed.
 
-Detailed dates and reading sections were preserved in the archived prep planning snapshot before being removed from this brief. Todoist project `GPT_Learning` remains the system of record for dated actions; it was not read or modified during this documentation integration. No task scheduling or account connection is implied.
+Detailed dates and reading sections were preserved in the archived prep planning snapshot before being removed from this brief. Todoist project `GPT_Learning` remains the system of record for dated actions. On 2026-10-04 it was read and 11 open prep tasks were rescheduled to implement the recovery plan; no tasks were marked complete.
 
 ## Guidance for ChatGPT
 
@@ -366,7 +369,7 @@ Project sources and instructions can be shared across related chats, but a ChatG
 
 Local edits do not establish that uploaded copies were refreshed. After a durable revision, refresh the supplied copy and confirm its revision/date. Record synchronization as completed only when verified. If using a connected source, verify which version was retrieved.
 
-**External ChatGPT refresh status for revision 2:** pending; no project uploads, project instructions, or account/plugin settings were changed by this local integration.
+**External ChatGPT refresh status for revision 4:** pending; no project uploads, project instructions, memory, or account/plugin settings were changed by this repository/Todoist update.
 
 ## Workflow
 
@@ -418,5 +421,6 @@ Update the context revision/date and record a concise change summary. Keep imple
 
 ## Revision history
 
+- **Revision 4 — 2026-10-04:** recorded the learner-reported pause and verified Todoist backlog; rescheduled prep recovery to Oct 12–23 around the first SHIELD residency while preserving the Q1 Coursera completion target; updated the live syllabus accordingly.
 - **Revision 3 — 2026-09-20:** added `docs/syllabus.md` as the live program-level syllabus/status artifact; recorded the quarterly Coursera completion constraint and maintenance rules that preserve Todoist and Obsidian as the execution/evidence systems of record.
 - **Revision 2 — 2026-09-20:** integrated learning with the existing Unified Knowledge Vault; added learning outcome/evidence expectations, verified entry points, metadata/template conventions, a dated progress snapshot, and explicit ChatGPT handoff rules. Preserved the previous schedule and reading assignments in the vault's dated prep planning snapshot.
