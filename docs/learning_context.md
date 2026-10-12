@@ -1,7 +1,7 @@
 ---
-context_revision: 4
-last_updated: 2026-10-04
-progress_as_of: 2026-10-04
+context_revision: 5
+last_updated: 2026-10-12
+progress_as_of: 2026-10-12
 ---
 
 # Learning Context
@@ -28,6 +28,7 @@ Supporting foundations:
 - Software engineering and reproducibility
 - Systems and data engineering
 - Strategic and policy reasoning through USC SHIELD
+- Autonomous Warfare Command as the USC SHIELD capstone integration theme, emphasizing command architecture, human-machine teaming, resilient distributed C2, autonomy assurance, and strategic/policy implications
 
 ## Program horizon
 
@@ -69,6 +70,37 @@ For status updates in the syllabus, preserve the distinction between verified ev
 9. Temporal graph learning
 10. MLOps and production systems
 11. Integrated capstone
+
+## Autonomous Warfare Command capstone integration
+
+**Status:** user-reported capstone focus as of 2026-10-12. This is a cross-cutting application lens, not a separate workload stream.
+
+Use the technical curriculum to examine Autonomous Warfare Command as a socio-technical command-and-control problem rather than as a weapons-employment problem. The recurring analytical frame is:
+
+- **Command authority and decision rights:** what decisions remain human, what may be delegated, what triggers escalation or override, and how mission command changes under autonomy.
+- **Information and network architecture:** centralized versus distributed C2, communication dependencies, latency, information quality, resilience, and graceful degradation.
+- **Human-machine teaming:** workload, trust calibration, supervisory control, handoffs, explainability, and responsibility.
+- **Multi-agent autonomy:** coordination, task allocation, distributed control, emergent behavior, and robustness at the architectural/analytical level.
+- **Perception and uncertainty:** sensor fusion, confidence/calibration, out-of-distribution behavior, degraded sensing, and uncertainty propagation.
+- **Assurance and test/evaluation:** verification/validation, simulation, scenario coverage, fail-safe behavior, red teaming, adversarial robustness, and evidence needed to justify deployment.
+- **Production/edge ML:** model/data versioning, monitoring, drift, rollback, cyber/software supply-chain concerns, and operation under intermittent or contested communications.
+- **Strategic and policy effects:** deterrence, escalation, tempo, accountability, legal/ethical constraints, acquisition, organizational design, and command responsibility.
+
+Tie each technical phase to the capstone where it creates genuine analytical leverage:
+
+| Technical strand | Autonomous Warfare Command tie-in |
+|---|---|
+| Math/statistics | uncertainty, calibration, reliability, decision thresholds, tradeoffs under incomplete information |
+| Classical ML | prediction versus decision, baselines, error costs, distribution shift, confidence and decision-support limits |
+| Causal inference | effects of delegation, human-machine teaming policies, interventions, and experimental/wargaming designs |
+| Network science | C2 topology, robustness, centralization/decentralization, communication dependencies, failure propagation |
+| Deep learning / vision | perception reliability, sensor fusion, confidence, degraded conditions, human oversight |
+| Graph ML | heterogeneous agent/sensor/command relationships, coordination, task allocation, representation choices |
+| Temporal graphs | changing C2/communication/tasking networks, latency, dynamic dependencies, time-respecting validation |
+| MLOps | edge deployment, assurance, provenance, monitoring, rollback, model updates, resilient lifecycle management |
+| USC SHIELD | doctrine, strategy, deterrence, escalation, leadership, industry, acquisition, governance, command authority |
+
+Any personal technical experimentation must use public, synthetic, or otherwise appropriately releasable data and should emphasize architecture, assurance, decision quality, and resilience rather than operational tactics or weapon-employment details.
 
 ## Primary learning resources
 
@@ -324,6 +356,7 @@ The vault's `99 - System/Metadata Schema.md` remains authoritative for detailed 
 | MLOps | `mlops-reproducibility` | Package, test, reproduce, and monitor a model with a deployment/rollback plan. |
 | Integrated capstone | `integrated-capstone` | Combine methods into an explained, reproducible system with a limitations report. |
 | USC SHIELD | `shield-policy-integration` | Produce sourced analysis connecting technical evidence, uncertainty, strategy, and policy tradeoffs. |
+| Autonomous Warfare Command | `autonomous-command-integration` | Analyze an autonomous command concept as a socio-technical C2 system by specifying decision rights, human-machine roles, information/network architecture, uncertainty, resilience, assurance evidence, and strategic/policy implications. |
 
 These are program evidence expectations, not assertions of completed competence or official external-course assessment criteria.
 
@@ -333,7 +366,7 @@ Treat successful explanation, application, and evaluation as evidence; reading c
 
 ## Current progress snapshot
 
-**Progress as of: 2026-10-04.** Source: the existing program context plus direct inspection of Todoist project `GPT_Learning` on 2026-10-04. This small snapshot is provided for chats without vault access; it is not a substitute for the latest Obsidian weekly review.
+**Progress as of: 2026-10-12.** Source: the existing program context, direct inspection of Todoist project `GPT_Learning` on 2026-10-12, and the learner's current report of the USC SHIELD capstone focus. This small snapshot is provided for chats without vault access; it is not a substitute for the latest Obsidian weekly review.
 
 - Current phase: `00_prep`.
 - Active deliverable: Prep ML Workflow; intended output is a reproducible public-data baseline with error analysis.
@@ -344,7 +377,9 @@ Treat successful explanation, application, and evaluation as evidence; reading c
 - Verified Todoist execution state on 2026-10-04: all prep tasks originally due Sep 21–Oct 4 remained open.
 - Recovery plan now reflected in Todoist: Oct 5–11 remains focused on SHIELD preparation/residency; foundational backlog is rescheduled across Oct 12–18 (~7 h); the Prep ML Workflow is rescheduled across Oct 19–23 (~5.5 h); the Q1 Coursera course begins after prep closes while retaining the Dec 15 target.
 - Upcoming constraint: October 5–11 is dominated by the first SHIELD residency.
-- Open choices: public dataset, prediction question, metric, and actual SHIELD materials.
+- User-reported SHIELD capstone focus: **Autonomous Warfare Command**. Treat this as the primary strategic integration lens across network analysis, causal inference, vision/perception, graph/temporal ML, and MLOps.
+- Daily Reading Brief automation updated on 2026-10-12 to surface non-duplicative public material relevant to autonomous C2, human-machine teaming, autonomy assurance/T&E, multi-agent/distributed systems, contested communications, edge MLOps, adversarial resilience, and strategic/legal/command-responsibility implications while preserving existing reading budgets.
+- Open technical choices remain: public dataset, prediction question, and metric for the Prep ML Workflow. Detailed SHIELD capstone research question, sponsor/user, scope, and required deliverable format have not been inspected in a source.
 - Latest review and detailed prep assignments: the dated vault notes listed above. Supply their content to a chat when specific assignments or progress are needed.
 
 Detailed dates and reading sections were preserved in the archived prep planning snapshot before being removed from this brief. Todoist project `GPT_Learning` remains the system of record for dated actions. On 2026-10-04 it was read and 11 open prep tasks were rescheduled to implement the recovery plan; no tasks were marked complete.
@@ -421,6 +456,7 @@ Update the context revision/date and record a concise change summary. Keep imple
 
 ## Revision history
 
+- **Revision 5 — 2026-10-12:** recorded the user-reported USC SHIELD capstone focus on Autonomous Warfare Command; added a cross-cutting autonomous-command analytical frame and learning outcome; mapped technical strands to the capstone; recorded the updated Daily Reading Brief integration without adding a separate workload stream.
 - **Revision 4 — 2026-10-04:** recorded the learner-reported pause and verified Todoist backlog; rescheduled prep recovery to Oct 12–23 around the first SHIELD residency while preserving the Q1 Coursera completion target; updated the live syllabus accordingly.
 - **Revision 3 — 2026-09-20:** added `docs/syllabus.md` as the live program-level syllabus/status artifact; recorded the quarterly Coursera completion constraint and maintenance rules that preserve Todoist and Obsidian as the execution/evidence systems of record.
 - **Revision 2 — 2026-09-20:** integrated learning with the existing Unified Knowledge Vault; added learning outcome/evidence expectations, verified entry points, metadata/template conventions, a dated progress snapshot, and explicit ChatGPT handoff rules. Preserved the previous schedule and reading assignments in the vault's dated prep planning snapshot.
