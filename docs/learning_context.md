@@ -1,6 +1,6 @@
 ---
-context_revision: 2
-last_updated: 2026-09-20
+context_revision: 3
+last_updated: 2026-10-12
 progress_as_of: 2026-09-20
 ---
 
@@ -36,11 +36,11 @@ Supporting foundations:
 - USC SHIELD runs in parallel from October 2026 through April 2027
 - During USC residency/live-session weeks, USC replaces most independent technical study rather than being added on top
 
-## Current phase
+## Last verified phase (progress as of 2026-09-20)
 
 Preparation / mathematical and analytical foundations before the formal October curriculum.
 
-Current near-term emphasis:
+Near-term emphasis recorded at that time; do not infer current completion from this historical snapshot:
 
 - NumPy and pandas fluency
 - Git, testing, and reproducibility
@@ -103,7 +103,8 @@ System of record for:
 System of record for:
 
 - durable conceptual notes
-- literature synthesis
+- source-specific literature notes
+- multi-moment syntheses integrating several days, course sessions, or earlier syntheses
 - weekly learning logs
 - project reasoning
 - cross-linked knowledge
@@ -243,10 +244,11 @@ Its numbered folders organize notes by purpose. Curriculum phases and subjects a
 | Operational dashboards | `00 - Home` |
 | Unprocessed capture | `10 - Inbox` |
 | Weekly learning logs and course-session records | `20 - Moments/Learning Logs/YYYY` and `20 - Moments/Course Sessions` |
+| Weekly, residency, course, travel, phase, or thematic integration | `20 - Moments/Syntheses/YYYY` |
 | Program outcomes and finite deliverables | `30 - Projects/GPT Learning` |
 | Ongoing technical learning responsibility | `40 - Areas` |
 | Durable concepts and synthesized claims | `50 - Knowledge/Concepts` |
-| Course overviews and literature synthesis | `60 - Sources/Courses` and `60 - Sources/Literature Notes` |
+| Course overviews and interpretation of individual external sources | `60 - Sources/Courses` and `60 - Sources/Literature Notes` |
 | Structured curriculum/resource inventories | `70 - Collections/Curriculum` |
 | Program navigation and subject MOCs | `80 - Atlas` |
 | Templates and metadata conventions | `99 - System` |
@@ -268,6 +270,7 @@ The following are implemented locally in this revision. Paths are relative to th
 | Resource inventory | `70 - Collections/Curriculum/GPT Learning Resources.md` |
 | SHIELD source overview | `60 - Sources/Courses/USC SHIELD.md` |
 | Course-session index | `20 - Moments/Course Sessions/Course Sessions.md` |
+| Multi-moment synthesis index | `20 - Moments/Syntheses/Syntheses.md` |
 | Workflow and handoff guide | `99 - System/Learning Workflow.md` |
 | Initial weekly review | `20 - Moments/Learning Logs/2026/2026-W38 Learning Review.md` |
 | Preserved schedule and readings | `20 - Moments/Learning Logs/2026/2026-09-20 Prep Planning Snapshot.md` |
@@ -278,13 +281,29 @@ The program and prep project are active. The three future capstone briefs are ma
 
 The shared `Basic Note.md` (concept), `Project.md`, `Literature Note.md`, and `Weekly Review.md` templates were extended in `99 - System/Templates`; `Course Session.md` was added. Existing filenames and core Templates configuration are retained.
 
+Revision 3 adds `Synthesis.md`, `Weekly Synthesis.md`, and `Course Overview.md` in the same template folder, plus the synthesis index/year folder and dashboard navigation. These are implemented structures, not completed coursework notes. No additional plugin is required; Dataview navigation is optional.
+
 ### Canonical notes and source handling
 
 Use one canonical note per concept. Search available curated notes, aliases, and legacy material before proposing a new one; identify unverified titles and links as proposed.
 
 Relevant legacy notes and review stubs can be processed during coursework. Consult `50 - Knowledge/Canonical Conflicts/Canonical Conflict Index.md` for relevant title conflicts. Preserve provenance using `source_vault`, `source_path`, and source links. Review stubs and routing notes are not established explanations or learning evidence; do not treat the entire migration backlog as a prerequisite for study.
 
-Course-session records feed durable concept and source notes. Preserve source attribution; link learning reasoning to technical artifacts and Git architecture decision records. Keep each authoritative record in its designated system.
+Course-session and daily records can feed one multi-moment synthesis; source-specific interpretation stays in literature notes, and reusable explanations belong in canonical concept notes. Preserve source attribution; link learning reasoning to technical artifacts and Git architecture decision records. Keep each authoritative record in its designated system.
+
+### Multi-moment synthesis conventions
+
+A synthesis explains what several inputs mean together: connections, tensions, changed understanding, evidence, and remaining questions. It is not a literature note or just a list of activities. Keep original moments as evidence and link reusable takeaways into concept/project notes without duplicating the full argument.
+
+- Weekly: `20 - Moments/Syntheses/YYYY/YYYY-Www Learning Synthesis.md`, using the ISO week-year and week covered, not the date written or Todoist deadline. Use `Weekly Synthesis.md`.
+- Other scopes: stable descriptive names, such as `USC SHIELD Residency 1 Synthesis.md` or `Prep Phase Synthesis.md`, under `20 - Moments/Syntheses/YYYY`. Use `Synthesis.md`. The year is the coverage end-year, or creation year if open/unknown; retain the path when extending the note. Distinguish repeated trips/cohorts with an identifying period in the title.
+- Set `type: synthesis`, `synthesis_scope` (`week`, `course`, `residency`, `travel`, `phase`, or `theme`), `period_start`, and `period_end`. Coverage is inclusive; weekly coverage is Monday–Sunday. Leave unknown dates blank. `created` and `modified` record writing dates separately.
+- `inputs` is a list of quoted, path-qualified wikilinks to notes actually used. Daily notes, course sessions, learning logs, source notes, and earlier syntheses can all contribute; no self-links or circular chains. Queries show candidates/navigation, not evidence that a note was used.
+- `courses` is a list of zero, one, or several verified course-overview links on synthesis notes. Individual session/source notes retain singular `course`.
+- Use a single weekly synthesis for integration, reflection, and planning when sufficient. A separate `Weekly Review.md` note is optional and should link to the synthesis instead of repeating it. Phase/course syntheses may build on weekly notes.
+- Search for an existing note of the same scope/period, including former names, before creating one. Preserve content and repair links when moving an existing note. Do not invent input links, coursework, or evidence just to populate a template.
+
+Naming example only: October 5–11, 2026 maps to `20 - Moments/Syntheses/2026/2026-W41 Learning Synthesis.md`, even if written October 12. This example is not an asserted existing study note.
 
 ### Learning metadata and templates
 
@@ -294,12 +313,13 @@ The vault's `99 - System/Metadata Schema.md` remains authoritative for detailed 
 - `phase` uses a repository identifier: `00_prep`, `01_math_stats`, `02_classical_ml`, `03_causal_inference`, `04_network_science`, `05_deep_learning`, `06_computer_vision`, `07_graph_ml`, `08_temporal_graphs`, or `09_mlops`.
 - `learning_outcomes` is a list of stable identifiers from the outcome table below. Multiple outcomes may span phases.
 - `course` is a verified link to a course overview; `provider` records its known provider.
+- Synthesis notes use plural `courses` and explicit `inputs`; coverage dates are distinct from creation/modification dates as described above.
 - `repo_path` is relative to the repository root. `artifact_links` stays empty until actual evidence can be referenced.
 - Reuse the existing `type`, `status`, `up`, `related`, `citekey`, and `zotero_uri` properties.
 - A source's `reading_status` is `unread`, `reading`, or `read`; its note lifecycle `status` is separate.
-- Course overviews use `type: source` and `source_type: course`; sessions use `type: event`; weekly logs use `type: review`.
-- Weekly logs use an explicit ISO `week` and actual `date`. A completed review describes the record, not mastery of its outcomes.
-- Concept templates prompt for explanation, assumptions, a worked example, failure mode, evidence, and meaningful connections. Weekly reviews capture evidence, misconceptions, capacity, and next-week adjustments.
+- Course overviews use `type: source` and `source_type: course`; sessions use `type: event`; operational weekly logs use `type: review`; multi-moment integration uses `type: synthesis`.
+- Weekly reviews/syntheses use the ISO `week` covered. A review's `date` is when it happened; a synthesis uses coverage dates and actual `created` / `modified`. A completed review or synthesis describes the record, not mastery of its outcomes.
+- Concept templates prompt for explanation, assumptions, a worked example, failure mode, evidence, and meaningful connections. Synthesis templates connect multiple inputs and capture changes in understanding; optional review sections capture capacity and next-week adjustments.
 
 ## Learning outcomes and evidence
 
@@ -320,11 +340,11 @@ The vault's `99 - System/Metadata Schema.md` remains authoritative for detailed 
 
 These are program evidence expectations, not assertions of completed competence or official external-course assessment criteria.
 
-For each substantial outcome, identify a concept explanation in the learner's own words, source synthesis, an applied artifact or analysis, assumptions/errors/remaining gaps, and a connection to another subject or project. Code-bearing work includes reproduction instructions and appropriate checks. One artifact may support several outcomes. Match the evidence to the subject: SHIELD may produce a sourced policy analysis rather than code.
+For each substantial outcome, identify a concept explanation in the learner's own words, integration of relevant sessions/sources, an applied artifact or analysis, assumptions/errors/remaining gaps, and a connection to another subject or project. Code-bearing work includes reproduction instructions and appropriate checks. One artifact may support several outcomes. Match the evidence to the subject: SHIELD may produce a sourced policy analysis rather than code.
 
 Treat successful explanation, application, and evaluation as evidence; reading completion, generated solutions, scaffolds, and note counts alone are insufficient.
 
-## Current progress snapshot
+## Last verified learning-progress snapshot
 
 **Progress as of: 2026-09-20.** Source: the existing program context and a local setup/file review. This small snapshot is provided for chats without vault access; it is not live task status.
 
@@ -337,7 +357,7 @@ Treat successful explanation, application, and evaluation as evidence; reading c
 - Open choices: public dataset, prediction question, metric, and actual SHIELD materials.
 - Latest review and detailed prep assignments: the dated vault notes listed above. Supply their content to a chat when specific assignments or progress are needed.
 
-Detailed dates and reading sections were preserved in the archived prep planning snapshot before being removed from this brief. Todoist project `GPT_Learning` remains the system of record for dated actions; it was not read or modified during this documentation integration. No task scheduling or account connection is implied.
+Detailed dates and reading sections were preserved in the archived prep planning snapshot before being removed from this brief. Todoist project `GPT_Learning` remains the system of record for dated actions. Revision 3 changes note-routing conventions, not the curriculum, scheduled dates, or this learning-progress snapshot. Check Todoist for live execution state; a completed task alone does not establish learning evidence.
 
 ## Guidance for ChatGPT
 
@@ -347,19 +367,21 @@ Plan within the normal 6–8 hour weekly budget, including synthesis and review.
 
 For each substantial assignment, specify its learning outcome, estimated effort, evidence of completion, and destination in Obsidian or Git. Prefer hints, questions, and diagnostics before complete exercise solutions unless the user requests a complete solution.
 
+For work integrating several moments/sessions, specify a synthesis scope/period, exact vault-relative filename, appropriate synthesis template, and input records to consult. Do not route combined course work into Literature Note. Preserve existing task dates and completion status when only note instructions change; proposed new scheduling is separate. One weekly synthesis can include the learning reflection and next steps.
+
 When local files or services are unavailable, use the supplied context, label assumptions and proposed changes, and request only the missing material needed for the task. Distinguish content drafted in chat from changes actually saved. A local path, project name, or documented plugin does not establish access.
 
 At the end of a planning session that changes durable conventions, supply the exact documentation amendment for Codex and a concise handoff: context revision, progress-as-of date, completed changes/evidence, coursework implications, and remaining proposals or questions. Preserve the distinction between inspected evidence and user-reported progress.
 
 ## Sharing context outside Codex
 
-Provide the current version of this file in the ChatGPT learning project's sources and paste the instruction block from [chatgpt_project_instructions.md](chatgpt_project_instructions.md) into its project instructions. Include the latest relevant dated review or source excerpt when progress or detailed assignments matter. In a standalone chat, supply the same context directly.
+Provide the current version of this file in the ChatGPT learning project's sources and paste the instruction block from [chatgpt_project_instructions.md](chatgpt_project_instructions.md) into its project instructions. Include the latest relevant dated synthesis, review, or source excerpt when progress or detailed assignments matter. In a standalone chat, supply the same context directly.
 
 Project sources and instructions can be shared across related chats, but a ChatGPT project does not itself provide access to the local repository or vault. See [official project documentation](https://learn.chatgpt.com/docs/projects).
 
 Local edits do not establish that uploaded copies were refreshed. After a durable revision, refresh the supplied copy and confirm its revision/date. Record synchronization as completed only when verified. If using a connected source, verify which version was retrieved.
 
-**External ChatGPT refresh status for revision 2:** pending; no project uploads, project instructions, or account/plugin settings were changed by this local integration.
+**External ChatGPT refresh status for revision 3:** pending; local context and instruction-file edits do not update project uploads, online project instructions, or account/plugin settings.
 
 ## Workflow
 
@@ -374,7 +396,7 @@ Zotero / Coursera / O'Reilly / USC learning
     ↓
 VS Code + Codex implementation
     ↓
-Obsidian synthesis
+Obsidian multi-moment synthesis → reusable concept/project notes
     ↓
 Git commit / project artifact
     ↓
@@ -411,4 +433,5 @@ Update the context revision/date and record a concise change summary. Keep imple
 
 ## Revision history
 
+- **Revision 3 — 2026-10-12:** separated multi-moment synthesis from source-specific literature notes; added synthesis folders/templates, coverage-based weekly naming, explicit input/course links, optional combined weekly reflection, and updated cross-chat task-routing guidance. Preserved the dated learning-progress snapshot; refreshed study evidence has not been assessed.
 - **Revision 2 — 2026-09-20:** integrated learning with the existing Unified Knowledge Vault; added learning outcome/evidence expectations, verified entry points, metadata/template conventions, a dated progress snapshot, and explicit ChatGPT handoff rules. Preserved the previous schedule and reading assignments in the vault's dated prep planning snapshot.

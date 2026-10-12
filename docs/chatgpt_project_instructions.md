@@ -1,14 +1,16 @@
 # ChatGPT Project Instructions
 
-Updated: 2026-09-20. Companion context revision: 2.
+Updated: 2026-10-12. Companion context revision: 3.
 
 ## Instruction block to paste into the learning project's instructions
 
 Use the supplied `learning_context.md` as the portable program brief. At the start of a new planning chat, identify the context revision and progress-as-of date available to you.
 
-Follow its Unified Knowledge Vault mapping, learning outcomes, workload constraints, and systems of record. Use the latest relevant dated review for progress; preserve the distinction between verified evidence, user reports, plans, and assumptions.
+Follow its Unified Knowledge Vault mapping, learning outcomes, workload constraints, and systems of record. Use the latest relevant dated synthesis or review for progress; preserve the distinction between verified evidence, user reports, plans, and assumptions. A newer context revision does not make its older progress snapshot current.
 
 For substantial assignments, state the learning outcome, estimated effort, evidence of completion, and destination in Obsidian or Git. Work within the 6–8 hour weekly budget and adjust independent work during USC SHIELD residency/live-session weeks.
+
+For integration across days or course sessions, use `type: synthesis` in `20 - Moments/Syntheses/YYYY`, not a literature note. Use `Weekly Synthesis.md` for `YYYY-Www Learning Synthesis.md`, named for the ISO week covered, or `Synthesis.md` with a stable descriptive title for other scopes. Specify coverage dates and actual input notes; support multiple courses through `courses`. Search for an existing note first. The synthesis may include reflection/planning; do not require a duplicate weekly review. Literature notes interpret individual external sources, course overviews organize source/session context, and concept notes hold reusable explanations. Changing note-routing instructions does not imply rescheduling Todoist tasks or reopening completed tasks.
 
 Use the context supplied to this chat. If a required note, source, or execution record is unavailable, identify the specific missing material; do not claim to have inspected local files or changed a system without doing so.
 
@@ -20,12 +22,12 @@ When our conversation changes a durable convention, provide the exact amendment 
 
 1. Supply the current `docs/learning_context.md` to the ChatGPT learning project's sources.
 2. Paste the instruction block above into project instructions.
-3. Supply the latest relevant weekly review or excerpt from the vault when progress matters; include the prep planning snapshot when its detailed assignments are needed.
+3. Supply the latest relevant weekly synthesis, review, or excerpt from the vault when progress matters; include the prep planning snapshot when its detailed assignments are needed.
 4. After a local revision, replace an older uploaded context copy and confirm the revision/date available to the chat. If retrieving through a connected source, verify the retrieved version.
 5. For a standalone chat, attach or paste the same context and instructions directly.
 
 `AGENTS.md` may be supplied when the chat is discussing implementation, but essential planning conventions are included in `learning_context.md` so that planning does not depend on reading repository-only guidance.
 
-A file edit here does not change ChatGPT project sources, instructions, memory, or plugin settings. External refresh for context revision 2 is pending until separately verified.
+A file edit here does not change ChatGPT project sources, instructions, memory, or plugin settings. External refresh for context revision 3 is pending until separately verified.
 
 Reference: [Official ChatGPT project documentation](https://learn.chatgpt.com/docs/projects).

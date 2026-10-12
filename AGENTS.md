@@ -14,7 +14,8 @@ Use `docs/learning_context.md` as the canonical cross-chat description of learni
 ### Obsidian is authoritative for
 
 - conceptual notes
-- literature synthesis
+- source-specific literature notes
+- multi-moment syntheses linking several days, sessions, or earlier syntheses
 - weekly learning logs
 - durable course notes
 - project reasoning and cross-links
@@ -82,11 +83,14 @@ When asked to build or modify the Obsidian vault:
 
 - use the vault structure and conventions in `docs/learning_context.md`
 - favor concept-oriented notes over course-only notes
-- keep literature notes distinct from concept notes
+- keep source-specific literature notes, multi-moment synthesis notes, and durable concept notes distinct
+- put weekly/course/residency/phase syntheses in `20 - Moments/Syntheses/YYYY` with `type: synthesis`, explicit `inputs`, coverage dates, and a `courses` list when applicable
+- use the covered ISO week (not the writing date or task deadline) for `YYYY-Www Learning Synthesis.md`; other syntheses use a stable descriptive title
+- a weekly synthesis may include reflection and planning; do not require a duplicate weekly-review note
 - link related concepts rather than duplicating explanations
 - keep weekly learning logs concise, dated, and evidence-focused; execution status remains in Todoist
 - use the existing numbered vault folders; express program/phase/subject relationships through metadata and MOCs
-- use the existing Basic Note, Project, Literature Note, and Weekly Review templates plus Course Session
+- use Basic Note, Project, Literature Note, Weekly Review, Course Session, Course Overview, Synthesis, and Weekly Synthesis in `99 - System/Templates` as appropriate
 - preserve canonical concepts, source attribution, legacy provenance, and verified path-qualified links
 - keep future briefs and review stubs distinct from completed work or demonstrated learning
 - link Obsidian learning reasoning to repository technical decision records instead of duplicating authoritative records
@@ -106,6 +110,8 @@ When implementing a durable workflow or structural change:
 - Validate changed Markdown links, metadata, phase/outcome identifiers, and cross-system references as appropriate. Documentation-only changes do not require unrelated Python test runs.
 
 When preparing a handoff to ChatGPT, include the context revision, progress-as-of date, completed changes with artifact references, coursework implications, and remaining proposals or questions. Preserve user-reported versus directly inspected evidence. Do not equate code generation, scaffolds, note counts, or reading completion with mastery.
+
+For synthesis assignments, specify the scope/period, exact vault-relative output path, template, and input records to consult. Do not invent input-note links, covered dates, or completed learning. Search for and reuse a note covering the same scope before creating another. Keep dated actions and execution status in Todoist; changing note conventions does not authorize rescheduling tasks or reopening completed history.
 
 If ChatGPT lacks current execution records, provide a compact dated snapshot derived from available evidence. Keep detailed logs in Obsidian and dated actions in Todoist. A snapshot in the portable brief is an explicitly dated export, not a second live tracker.
 

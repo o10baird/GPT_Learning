@@ -5,7 +5,7 @@ Year-long technical learning repository for data science, machine learning, comp
 ## Tool boundaries
 
 - **Zotero**: source PDFs, bibliographic metadata, highlights, and annotations.
-- **Obsidian**: durable concept notes, literature synthesis, learning logs, and project reasoning.
+- **Obsidian**: durable concept notes, source-specific literature notes, multi-moment syntheses, learning logs, and project reasoning.
 - **Todoist**: dated actions and workload management.
 - **ChatGPT**: learning strategy, tutoring, and syllabus adjustment.
 - **VS Code + Codex**: coding, notebooks, testing, and refactoring.
@@ -17,9 +17,11 @@ General notes and PDFs should not be stored in this repository.
 
 Read [Learning Context](docs/learning_context.md) for the curriculum, workload constraints, Unified Knowledge Vault mapping, outcome evidence, and dated progress snapshot. [AGENTS.md](AGENTS.md) defines repository work and documentation-maintenance rules.
 
-For planning chats outside Codex, supply the current learning context and relevant dated review, then use [ChatGPT Project Instructions](docs/chatgpt_project_instructions.md). Local edits and uploaded project sources must be refreshed separately; the context records the current refresh status.
+For planning chats outside Codex, supply the current learning context and relevant dated synthesis or review, then use [ChatGPT Project Instructions](docs/chatgpt_project_instructions.md). Local edits and uploaded project sources must be refreshed separately; the context records the current refresh status.
 
 The vault's Learning Dashboard is at `00 - Home/Learning Dashboard.md` within `C:\Users\Ian_Baird\Obsidian_Vaults\Unified Knowledge Vault`.
+
+Combine several days or course sessions in `20 - Moments/Syntheses/YYYY` using the Synthesis or Weekly Synthesis template. Weekly notes use `YYYY-Www Learning Synthesis.md` for the ISO week covered, even when written later. Literature notes stay source-specific; a weekly synthesis can include reflection/planning without requiring a second review note.
 
 ## Repository layout
 
