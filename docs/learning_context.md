@@ -40,7 +40,7 @@ Supporting foundations:
 
 ## Current phase
 
-Preparation / mathematical and analytical foundations before the formal October curriculum.
+Preparation recovery / mathematical and analytical foundations overlapping the opening of the formal October curriculum.
 
 Current near-term emphasis:
 
@@ -49,7 +49,7 @@ Current near-term emphasis:
 - Linear algebra refresh
 - Probability/statistics refresh
 - First reproducible classical-ML workflow
-- Preparation for the first USC SHIELD residency
+- Post-residency USC SHIELD synthesis and Autonomous Warfare Command capstone framing
 
 ## Live syllabus convention
 
@@ -376,7 +376,7 @@ Treat successful explanation, application, and evaluation as evidence; reading c
 - User-reported interruption: approximately the prior week was taken off for other priorities.
 - Verified Todoist execution state on 2026-10-04: all prep tasks originally due Sep 21–Oct 4 remained open.
 - Recovery plan now reflected in Todoist: Oct 5–11 remains focused on SHIELD preparation/residency; foundational backlog is rescheduled across Oct 12–18 (~7 h); the Prep ML Workflow is rescheduled across Oct 19–23 (~5.5 h); the Q1 Coursera course begins after prep closes while retaining the Dec 15 target.
-- Upcoming constraint: October 5–11 is dominated by the first SHIELD residency.
+- Verified Todoist snapshot on 2026-10-12: 11 tasks remain open in `GPT_Learning`, including the USC SHIELD Residency 1 synthesis and the rescheduled prep-recovery work. The first residency window has passed; no inference is made here about residency learning outcomes without the synthesis/review evidence.
 - User-reported SHIELD capstone focus: **Autonomous Warfare Command**. Treat this as the primary strategic integration lens across network analysis, causal inference, vision/perception, graph/temporal ML, and MLOps.
 - Daily Reading Brief automation updated on 2026-10-12 to surface non-duplicative public material relevant to autonomous C2, human-machine teaming, autonomy assurance/T&E, multi-agent/distributed systems, contested communications, edge MLOps, adversarial resilience, and strategic/legal/command-responsibility implications while preserving existing reading budgets.
 - Open technical choices remain: public dataset, prediction question, and metric for the Prep ML Workflow. Detailed SHIELD capstone research question, sponsor/user, scope, and required deliverable format have not been inspected in a source.
