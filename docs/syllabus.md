@@ -2,9 +2,9 @@
 title: GPT Learning Syllabus
 program: gpt_learning
 document_role: live_curriculum_status
-context_revision: 4
-last_updated: 2026-10-04
-progress_as_of: 2026-10-04
+context_revision: 5
+last_updated: 2026-10-12
+progress_as_of: 2026-10-12
 program_start: 2026-10-01
 program_end: 2027-09-30
 weekly_budget: 6-8 hours
@@ -28,10 +28,11 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 
 ## Current status
 
-**Progress as of 2026-10-04**
+**Progress as of 2026-10-12**
 
 - Current phase: `00_prep`
 - Program state: preparation recovery overlapping the opening of the formal October 2026 curriculum
+- User-reported USC SHIELD capstone focus: **Autonomous Warfare Command**
 - Active deliverable: Prep ML Workflow
 - Verified completed learning outcomes: none identified in the available repository/context evidence
 - Verified repository evidence: learning-program structure, project briefs, resource indexes, templates, environment conventions, and repository integration guidance exist
@@ -67,6 +68,7 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 | MLOps | `mlops-reproducibility` | Package, test, reproduce, and monitor a model with a deployment/rollback plan | Planned |
 | Integrated capstone | `integrated-capstone` | Combine methods into an explained, reproducible system with a limitations report | Planned |
 | USC SHIELD | `shield-policy-integration` | Produce sourced analysis connecting technical evidence, uncertainty, strategy, and policy tradeoffs | Planned |
+| Autonomous Warfare Command | `autonomous-command-integration` | Analyze an autonomous command concept as a socio-technical C2 system: decision rights, human-machine roles, information/network architecture, uncertainty, resilience, assurance evidence, and strategic/policy implications | Active integration lens |
 
 ## Operating constraints
 
@@ -76,6 +78,37 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 - Use public, unclassified, or otherwise appropriately releasable information for all personal learning artifacts and cloud/commercial tooling.
 - Prefer one primary instructional resource at a time; books, O'Reilly, Stanford material, and papers are supplements rather than parallel full courses.
 - Progress is judged by explanation, application, and evaluation supported by evidence—not by reading completion, generated solutions, or course certificates alone.
+- Autonomous Warfare Command is a cross-cutting application lens embedded in existing coursework; it does **not** add a separate weekly workload.
+
+## Autonomous Warfare Command cross-cutting strategy
+
+Treat the SHIELD capstone as the integrative problem that gives the technical curriculum a consistent application context. Focus on **command architecture and decision quality**, not operational weapon-employment tactics.
+
+| Curriculum area | Capstone tie-in | Evidence to seek |
+|---|---|---|
+| Math/statistics | uncertainty, calibration, reliability, thresholds, tradeoffs under incomplete information | explain how uncertainty changes a command decision or assurance claim |
+| Classical ML | prediction vs decision, asymmetric error costs, distribution shift, model confidence | baseline + error analysis tied to decision consequences |
+| Causal inference | effects of autonomy/delegation policies, human-machine teaming interventions, experimental design | DAG or identification argument distinguishing prediction from causal effect |
+| Network science | centralized/distributed C2, communication dependencies, robustness, failure propagation | public/synthetic graph analysis comparing architectural tradeoffs |
+| Deep learning / vision | perception reliability, sensor fusion, degraded conditions, confidence, human oversight | failure analysis under shift/noise with explicit limits |
+| Graph ML | agent/sensor/command relationships, distributed coordination, task allocation | compare graph and non-graph representations/baselines |
+| Temporal graphs | changing communication/tasking networks, latency, dynamic dependencies | time-respecting evaluation with leakage controls |
+| MLOps | edge deployment, provenance, monitoring, drift, rollback, resilient updates | reproducible pipeline plus assurance/rollback plan |
+| USC SHIELD | doctrine, deterrence, escalation, command authority, accountability, acquisition, leadership | sourced capstone analysis connecting technical evidence to strategic choices |
+
+### Recurring capstone questions
+
+Use these questions to connect coursework to the capstone without creating additional assignments:
+
+- What decisions are delegated, retained, or escalated, and on what evidence?
+- What information must flow between humans, autonomous agents, sensors, and command nodes?
+- How does the architecture degrade when communications, sensors, models, or nodes fail?
+- How should confidence, uncertainty, and disagreement affect human-machine handoffs?
+- What verification, validation, test, evaluation, and monitoring evidence is sufficient for a given level of delegation?
+- How do autonomy and machine speed change deterrence, escalation risk, accountability, and mission command?
+- Which claims are descriptive, predictive, causal, or normative, and what methods are valid for each?
+
+All technical demonstrations for this strand must use public, synthetic, or appropriately releasable information. Prefer architecture, assurance, resilience, decision-support, and systems-analysis problems over tactical or weapon-employment detail.
 
 ## Quarterly Coursera requirement
 
@@ -139,7 +172,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - October 5–11: SHIELD preparation/residency; no attempt to catch up technical backlog.
 - October 12–23: finish deferred prep foundations and the Prep ML Workflow.
 - October 24 onward: begin graph representation, connectivity, and NetworkX basics in *Applied Social Network Analysis in Python*.
-- November: centrality, network measures, DAGs, confounding, potential outcomes
+- November: centrality, network measures, DAGs, confounding, potential outcomes; where useful, frame examples around command-network robustness, delegation, and human-machine decision policies
 - December: network evolution/link prediction, course final work, certificate completion, synthesis
 
 **Estimated effort:** 6–8 h/week normally; 0–2 h of independent work during heavy SHIELD weeks.
@@ -172,9 +205,9 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - *Mathematics for Machine Learning* — vector calculus/optimization refresh
 
 **Planned progression**
-- January: communities, cohesion, assortativity, structural roles
-- February: generative network models and diffusion
-- March: influence models, temporal framing, neural-network prerequisites
+- January: communities, cohesion, assortativity, structural roles; compare centralized and distributed command-network structures using public/synthetic examples
+- February: generative network models and diffusion; use diffusion/robustness concepts to reason about information propagation, coordination, and failure in autonomous C2
+- March: influence models, temporal framing, neural-network prerequisites; connect temporal/network concepts to changing communications, tasking, and command dependencies
 
 **Estimated effort:** 6–8 h/week normally, reduced during SHIELD sessions.
 
@@ -209,8 +242,8 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 
 **Planned progression**
 - April: SHIELD capstone priority; maintain technical continuity only
-- May: CNN fundamentals, architectures, transfer learning
-- June: detection/segmentation, model evaluation, failure analysis, certificate completion
+- May: CNN fundamentals, architectures, transfer learning; emphasize perception reliability, calibration, and human oversight rather than task-specific weapon applications
+- June: detection/segmentation, model evaluation, failure analysis, certificate completion; analyze distribution shift, degraded sensing, and confidence as autonomy-assurance problems
 
 **Estimated effort:** April 0–3 h/week independent; May–June 6–8 h/week.
 
@@ -245,6 +278,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - GraphSAGE
 - graph attention
 - link prediction
+- heterogeneous/multi-agent relationships relevant to distributed command architectures
 - appropriate graph train/validation/test splits
 
 **Estimated effort:** 7–8 h/week.
@@ -277,6 +311,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - snapshot vs event-based temporal representations
 - temporal link prediction
 - dynamic node representations
+- changing communication/tasking/command dependencies
 - time-respecting splits and leakage prevention
 - distinguish forecasting from causal effect estimation
 
@@ -316,6 +351,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - FastAPI
 - GitHub Actions
 - monitoring tooling appropriate to the project
+- assurance-oriented logging, provenance, rollback, and degraded-connectivity considerations for edge/autonomous systems
 - Full Stack Deep Learning selected labs
 
 **Estimated effort:** 7–8 h/week.
@@ -390,6 +426,7 @@ This table records only inspected or otherwise clearly identified program-level 
 | 2026-09-20 | Program setup only | Repository structure, environment conventions, project briefs, vault integration guidance | repository + portable context | Infrastructure evidence; **not** evidence of technical mastery |
 | 2026-09-20 | `prep-reproducible-workflow` | No completed exercise artifact identified in available repository/context review | — | Active; completion not yet demonstrated |
 | 2026-10-04 | Prep execution status | Todoist inspection found all Sep 21–Oct 4 prep tasks still open; learner reported taking approximately the prior week off | Todoist project `GPT_Learning` | Schedule evidence only; no mastery inference |
+| 2026-10-12 | Autonomous Warfare Command capstone scope | Learner reported USC SHIELD capstone focus on Autonomous Warfare Command; Daily Reading Brief updated to support this lens | user report + automation configuration | Scope/strategy evidence only; capstone research question and deliverable requirements not yet inspected |
 
 ## Maintenance rules
 
