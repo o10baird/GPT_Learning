@@ -38,8 +38,8 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 - Verified repository evidence: learning-program structure, project briefs, resource indexes, templates, environment conventions, and repository integration guidance exist
 - Current near-term focus: NumPy/pandas fluency, Git/testing/reproducibility, linear algebra, probability/statistics, and first reproducible classical-ML workflow
 - Verified execution status: Todoist shows the Sep 21–Oct 4 prep tasks still open after an approximately one-week pause reported by the learner.
-- Recovery schedule: preserve Oct 5–11 for USC SHIELD preparation/residency; complete foundational backlog Oct 12–18 and Prep ML Workflow Oct 19–23; begin the Q1 Coursera course after prep closes.
-- Known scheduling constraint: first USC SHIELD residency dominates October 5–11
+- Recovery schedule: complete foundational backlog Oct 12–18 and Prep ML Workflow Oct 19–23; begin the Q1 Coursera course after prep closes. Integrate capstone framing into the existing SHIELD synthesis/review time rather than adding separate hours.
+- First USC SHIELD residency window has passed; the Residency 1 synthesis remains open in Todoist and should capture the Autonomous Warfare Command capstone framing without adding a separate workload stream.
 - Detailed weekly-review evidence: **not inspected in this update**. The latest review identified by the portable context is `20 - Moments/Learning Logs/2026/2026-W38 Learning Review.md`; its contents must be supplied or connected before this file is updated from that evidence.
 
 ### Status vocabulary
