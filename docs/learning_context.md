@@ -1,7 +1,7 @@
 ---
-context_revision: 5
-last_updated: 2026-10-12
-progress_as_of: 2026-10-12
+context_revision: 6
+last_updated: 2026-10-21
+progress_as_of: 2026-10-21
 ---
 
 # Learning Context
@@ -37,19 +37,21 @@ Supporting foundations:
 - Employer requirement: complete at least one Coursera course per federal fiscal-year quarter during the formal program year
 - USC SHIELD runs in parallel from October 2026 through April 2027
 - During USC residency/live-session weeks, USC replaces most independent technical study rather than being added on top
+- Temporary capacity adjustment: work/travel limits independent learning through 2026-10-29; keep 2026-10-30 through 2026-11-01 deliberately light, then return to the normal 6-8 hour weekly ceiling
 
-## Last verified phase (progress as of 2026-09-20)
+## Current verified execution state (progress as of 2026-10-21)
 
-Preparation recovery / mathematical and analytical foundations overlapping the opening of the formal October curriculum.
+Preparation recovery remains active while the formal program begins. Direct Todoist inspection shows the NumPy/pandas refresher and USC SHIELD Residency 1 synthesis marked complete; their underlying artifacts were not inspected in this update, so these are execution-status facts rather than mastery determinations. Nine prep tasks remained open on 2026-10-21.
 
-Near-term emphasis recorded at that time; do not infer current completion from this historical snapshot:
+User-reported constraints:
+- work demands have limited study;
+- travel continues through 2026-10-29.
 
-- NumPy and pandas fluency
-- Git, testing, and reproducibility
-- Linear algebra refresh
-- Probability/statistics refresh
-- First reproducible classical-ML workflow
-- Post-residency USC SHIELD synthesis and Autonomous Warfare Command capstone framing
+Near-term strategy:
+- no scheduled coursework through 2026-10-29;
+- keep 2026-10-30 through 2026-11-01 to a single 30-minute re-entry checkpoint;
+- spread the remaining prep backlog across November at roughly 1-2 hours per week alongside the Coursera course;
+- start University of Michigan's *Applied Social Network Analysis in Python* in November and complete it by 2026-12-13, ahead of the employer's FY27 Q1 deadline.
 
 ## Live syllabus convention
 
@@ -119,7 +121,7 @@ Any personal technical experimentation must use public, synthetic, or otherwise 
 
 ### Online/platform resources
 
-- Coursera — primary structured course platform
+- Coursera — primary structured course platform; FY27 Q1 course is University of Michigan's *Applied Social Network Analysis in Python*, beginning in November 2026 with planned completion by 2026-12-13
 - DoD MWR O'Reilly — technical reference library
 - USC SHIELD — strategic/engineering/policy integration
 - Stanford CS231n — advanced computer-vision supplement
@@ -386,24 +388,20 @@ Treat successful explanation, application, and evaluation as evidence; reading c
 
 ## Last verified learning-progress snapshot
 
-**Progress as of: 2026-10-12.** Source: the existing program context, direct inspection of Todoist project `GPT_Learning` on 2026-10-12, and the learner's current report of the USC SHIELD capstone focus. This small snapshot is provided for chats without vault access; it is not a substitute for the latest Obsidian weekly review.
+**Progress as of: 2026-10-21.** Source: the existing program context plus direct inspection of Todoist project `GPT_Learning` on 2026-10-21. This small snapshot is provided for chats without vault access; it is not a substitute for the latest Obsidian weekly review.
 
-- Current phase: `00_prep`.
-- Active deliverable: Prep ML Workflow; intended output is a reproducible public-data baseline with error analysis.
-- Confirmed system work: learning navigation, project briefs, source/resource indexes, templates, and repository integration guidance.
-- Coursework evidence: none identified in the setup review; no learning outcome is marked complete. The phase and project directories exist, but no exercise artifacts were found.
-- Near-term subjects: NumPy/pandas, Git/testing/reproducibility, linear algebra, probability/statistics, and SHIELD preparation.
-- User-reported interruption: approximately the prior week was taken off for other priorities.
-- Verified Todoist execution state on 2026-10-04: all prep tasks originally due Sep 21–Oct 4 remained open.
-- Recovery plan now reflected in Todoist: Oct 5–11 remains focused on SHIELD preparation/residency; foundational backlog is rescheduled across Oct 12–18 (~7 h); the Prep ML Workflow is rescheduled across Oct 19–23 (~5.5 h); the Q1 Coursera course begins after prep closes while retaining the Dec 15 target.
-- Verified Todoist snapshot on 2026-10-12: 11 tasks remain open in `GPT_Learning`, including the USC SHIELD Residency 1 synthesis and the rescheduled prep-recovery work. The first residency window has passed; no inference is made here about residency learning outcomes without the synthesis/review evidence.
-- User-reported SHIELD capstone focus: **Autonomous Warfare Command**. Treat this as the primary strategic integration lens across network analysis, causal inference, vision/perception, graph/temporal ML, and MLOps.
-- Daily Reading Brief automation updated on 2026-10-12 to surface non-duplicative public material relevant to autonomous C2, human-machine teaming, autonomy assurance/T&E, multi-agent/distributed systems, contested communications, edge MLOps, adversarial resilience, and strategic/legal/command-responsibility implications while preserving existing reading budgets.
-- Open technical choices remain: public dataset, prediction question, and metric for the Prep ML Workflow. Detailed SHIELD capstone research question, sponsor/user, scope, and required deliverable format have not been inspected in a source.
-- Latest review and detailed prep assignments: the dated vault notes listed above. Supply their content to a chat when specific assignments or progress are needed.
+- Current phase: `00_prep` recovery overlapping the formal program.
+- Active deliverable: Prep ML Workflow; intended output remains a reproducible public-data baseline with error analysis.
+- Verified Todoist execution evidence: the NumPy/pandas refresher was marked complete on 2026-10-13 and the USC SHIELD Residency 1 synthesis was marked complete on 2026-10-12. Their artifacts were not inspected here, so no learning outcome is marked complete from those task states alone.
+- Verified Todoist backlog on 2026-10-21: nine prep tasks remained open.
+- User-reported capacity constraint: work demands have limited progress and travel continues through 2026-10-29.
+- Temporary recovery schedule now implemented in Todoist: no coursework through Oct 29; one 30-minute mathematical re-entry checkpoint on Nov 1; remaining prep work distributed across Nov 2-29.
+- FY27 Q1 Coursera plan now implemented in Todoist: *Applied Social Network Analysis in Python* begins Nov 7, is spread across Modules 1-4 through Dec 13, and has an explicit Dec 15 deadline. Coursera currently describes the course as four modules totaling about 26 hours; use the course platform as the authoritative source if its estimates change.
+- Weekly workload from Nov 2 onward remains within the 6-8 hour ceiling by interleaving roughly 1-2 hours of prep with Coursera rather than finishing the entire prep backlog first.
+- Autonomous Warfare Command remains the SHIELD capstone integration lens for network robustness, centralization, dynamic networks, assurance, and human-machine command relationships.
+- Latest Obsidian weekly review/synthesis content was not inspected in this update; provide it when evidence of learning, misconceptions, or capacity needs to be incorporated.
 
-Detailed dates and reading sections were preserved in the archived prep planning snapshot before being removed from this brief. Todoist project `GPT_Learning` remains the system of record for dated actions. Revision 3 changes note-routing conventions, not the curriculum, scheduled dates, or this learning-progress snapshot. Check Todoist for live execution state; a completed task alone does not establish learning evidence.
-
+Todoist project `GPT_Learning` remains the system of record for dated actions. On 2026-10-21 nine existing tasks were rescheduled and eight Coursera module work blocks were created/adjusted to implement the November-December plan.
 ## Guidance for ChatGPT
 
 Use this document for program design and the latest dated progress evidence for execution context. Current explicit user instructions supersede older program guidance. Compare context revisions and progress dates; do not silently treat an older upload or conversation recollection as current state.
@@ -479,6 +477,7 @@ Update the context revision/date and record a concise change summary. Keep imple
 
 ## Revision history
 
+- **Revision 6 — 2026-10-21:** recorded the work/travel interruption through Oct 29; lightened the schedule through Nov 1; rescheduled the remaining prep backlog across November; and moved the FY27 Q1 Coursera course start into November with *Applied Social Network Analysis in Python* planned for completion by Dec 13 while preserving the 6-8 hour weekly ceiling.
 - **Revision 5 — 2026-10-12:** recorded the user-reported USC SHIELD capstone focus on Autonomous Warfare Command; added a cross-cutting autonomous-command analytical frame and learning outcome; mapped technical strands to the capstone; recorded the updated Daily Reading Brief integration without adding a separate workload stream.
 - **Revision 4 — 2026-10-04:** recorded the learner-reported pause and verified Todoist backlog; rescheduled prep recovery to Oct 12–23 around the first SHIELD residency while preserving the Q1 Coursera completion target; updated the live syllabus accordingly.
 - **Revision 3 — 2026-09-20:** added `docs/syllabus.md` as the live program-level syllabus/status artifact; recorded the quarterly Coursera completion constraint and maintenance rules that preserve Todoist and Obsidian as the execution/evidence systems of record.
