@@ -2,9 +2,9 @@
 title: GPT Learning Syllabus
 program: gpt_learning
 document_role: live_curriculum_status
-context_revision: 5
-last_updated: 2026-10-12
-progress_as_of: 2026-10-12
+context_revision: 6
+last_updated: 2026-10-21
+progress_as_of: 2026-10-21
 program_start: 2026-10-01
 program_end: 2027-09-30
 weekly_budget: 6-8 hours
@@ -28,10 +28,10 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 
 ## Current status
 
-**Progress as of 2026-10-12**
+**Progress as of 2026-10-21**
 
 - Current phase: `00_prep`
-- Program state: preparation recovery overlapping the opening of the formal October 2026 curriculum
+- Program state: preparation recovery overlapping the formal program, with travel-limited capacity through Oct 29 and a November Coursera start
 - User-reported USC SHIELD capstone focus: **Autonomous Warfare Command**
 - Active deliverable: Prep ML Workflow
 - Verified completed learning outcomes: none identified in the available repository/context evidence
@@ -114,7 +114,7 @@ All technical demonstrations for this strand must use public, synthetic, or appr
 
 | Quarter | Required completed course | Target completion | Program role | Status |
 |---|---|---:|---|---|
-| FY27 Q1: Oct–Dec 2026 | University of Michigan — *Applied Social Network Analysis in Python* | 2026-12-15 | Classical network analysis, NetworkX, centrality, connectivity, link prediction | Planned |
+| FY27 Q1: Oct–Dec 2026 | University of Michigan — *Applied Social Network Analysis in Python* | Start 2026-11-07; finish 2026-12-13; deadline 2026-12-15 | Classical network analysis, NetworkX, connectivity/robustness, centrality, network evolution/link prediction; direct Autonomous Warfare Command C2 tie-in | Planned |
 | FY27 Q2: Jan–Mar 2027 | University of Michigan — *Network Modeling and Analysis in Python* | 2027-03-14 | Communities, network models, diffusion, influence | Planned |
 | FY27 Q3: Apr–Jun 2027 | DeepLearning.AI — *Convolutional Neural Networks* | 2027-06-20 | CNNs, transfer learning, detection, segmentation | Planned |
 | FY27 Q4: Jul–Sep 2027 | DeepLearning.AI — *Machine Learning in Production* | 2027-09-12 | Production ML lifecycle, monitoring, drift, deployment reasoning | Planned |
@@ -123,7 +123,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 
 ## 12-month syllabus
 
-### Preparation recovery — through October 23, 2026
+### Preparation recovery — through November 29, 2026
 
 **Primary outcome:** `prep-reproducible-workflow`
 
@@ -137,7 +137,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - first public-data baseline workflow
 - initial error analysis and reproducibility checks
 
-**Estimated effort:** Oct 12–18 approximately 7 h; Oct 19–23 approximately 5.5 h, leaving capacity to begin the Q1 Coursera course that weekend. Oct 5–11 is reserved primarily for USC SHIELD.
+**Estimated effort:** no scheduled coursework through Oct 29; 30 minutes on Nov 1; then roughly 1–2 h/week of remaining prep work during November alongside Coursera. Do not exceed the normal 6–8 h weekly ceiling.
 
 **Evidence of completion**
 - learner can explain the data flow and validation choices;
@@ -427,6 +427,9 @@ This table records only inspected or otherwise clearly identified program-level 
 | 2026-09-20 | `prep-reproducible-workflow` | No completed exercise artifact identified in available repository/context review | — | Active; completion not yet demonstrated |
 | 2026-10-04 | Prep execution status | Todoist inspection found all Sep 21–Oct 4 prep tasks still open; learner reported taking approximately the prior week off | Todoist project `GPT_Learning` | Schedule evidence only; no mastery inference |
 | 2026-10-12 | Autonomous Warfare Command capstone scope | Learner reported USC SHIELD capstone focus on Autonomous Warfare Command; Daily Reading Brief updated to support this lens | user report + automation configuration | Scope/strategy evidence only; capstone research question and deliverable requirements not yet inspected |
+| 2026-10-12 | `shield-policy-integration` execution status | USC SHIELD Residency 1 synthesis task marked complete in Todoist | Todoist | Execution evidence only; synthesis content not inspected |
+| 2026-10-13 | Prep execution status | NumPy/pandas refresher task marked complete in Todoist | Todoist | Execution evidence only; notebook not inspected |
+| 2026-10-21 | Schedule/capacity | Nine prep tasks remained open; learner reported heavy work demands and travel through Oct 29; backlog and Coursera milestones rescheduled | Todoist + user report | Schedule evidence only; no mastery inference |
 
 ## Maintenance rules
 
