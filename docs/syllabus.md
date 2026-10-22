@@ -123,7 +123,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 
 ## 12-month syllabus
 
-### Preparation recovery — through November 29, 2026
+### Preparation recovery — through November 25, 2026
 
 **Primary outcome:** `prep-reproducible-workflow`
 
