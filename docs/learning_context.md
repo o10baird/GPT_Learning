@@ -395,7 +395,7 @@ Treat successful explanation, application, and evaluation as evidence; reading c
 - Verified Todoist execution evidence: the NumPy/pandas refresher was marked complete on 2026-10-13 and the USC SHIELD Residency 1 synthesis was marked complete on 2026-10-12. Their artifacts were not inspected here, so no learning outcome is marked complete from those task states alone.
 - Verified Todoist backlog on 2026-10-21: nine prep tasks remained open.
 - User-reported capacity constraint: work demands have limited progress and travel continues through 2026-10-29.
-- Temporary recovery schedule now implemented in Todoist: no coursework through Oct 29; one 30-minute mathematical re-entry checkpoint on Nov 1; remaining prep work distributed across Nov 2-29.
+- Temporary recovery schedule now implemented in Todoist: no coursework through Oct 29; one 30-minute mathematical re-entry checkpoint on Nov 1; remaining prep work distributed across Nov 2-25.
 - FY27 Q1 Coursera plan now implemented in Todoist: *Applied Social Network Analysis in Python* begins Nov 7, is spread across Modules 1-4 through Dec 13, and has an explicit Dec 15 deadline. Coursera currently describes the course as four modules totaling about 26 hours; use the course platform as the authoritative source if its estimates change.
 - Weekly workload from Nov 2 onward remains within the 6-8 hour ceiling by interleaving roughly 1-2 hours of prep with Coursera rather than finishing the entire prep backlog first.
 - Autonomous Warfare Command remains the SHIELD capstone integration lens for network robustness, centralization, dynamic networks, assurance, and human-machine command relationships.
