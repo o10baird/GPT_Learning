@@ -1,7 +1,7 @@
 ---
-context_revision: 6
-last_updated: 2026-10-21
-progress_as_of: 2026-10-21
+context_revision: 7
+last_updated: 2026-11-18
+progress_as_of: 2026-11-18
 ---
 
 # Learning Context
@@ -37,21 +37,25 @@ Supporting foundations:
 - Employer requirement: complete at least one Coursera course per federal fiscal-year quarter during the formal program year
 - USC SHIELD runs in parallel from October 2026 through April 2027
 - During USC residency/live-session weeks, USC replaces most independent technical study rather than being added on top
-- Temporary capacity adjustment: work/travel limits independent learning through 2026-10-29; keep 2026-10-30 through 2026-11-01 deliberately light, then return to the normal 6-8 hour weekly ceiling
+- Temporary capacity adjustment: heavy work and multiple travel periods constrain learning through the end of December 2026. Preserve the normal 6-8 hour ceiling, but do not attempt backlog catch-up during travel or 12-hour workday blocks.
 
-## Current verified execution state (progress as of 2026-10-21)
+## Current verified execution state (progress as of 2026-11-18)
 
-Preparation recovery remains active while the formal program begins. Direct Todoist inspection shows the NumPy/pandas refresher and USC SHIELD Residency 1 synthesis marked complete; their underlying artifacts were not inspected in this update, so these are execution-status facts rather than mastery determinations. Nine prep tasks remained open on 2026-10-21.
+Direct Todoist inspection on 2026-11-18 found 15 active `GPT_Learning` tasks and no completed tasks since 2026-10-21. This confirms that the prior November catch-up plan was not executed. No learning outcome is marked complete from task state alone.
 
-User-reported constraints:
-- work demands have limited study;
-- travel continues through 2026-10-29.
+Calendar constraints inspected across the primary, Cohort XIII, and Social Events calendars for the next 45 days include:
+- Thanksgiving travel in New England: 2026-11-23 through 2026-11-28, including long driving blocks;
+- Myrtle Beach travel: 2026-12-09 through 2026-12-14, including travel days;
+- Christmas travel in Pennsylvania: 2026-12-22 through 2026-12-26;
+- several 12-hour workday blocks, including Nov 18-20, Nov 30-Dec 4, Dec 7-8, Dec 15-18, Dec 21-22, and Dec 28-30.
 
 Near-term strategy:
-- no scheduled coursework through 2026-10-29;
-- keep 2026-10-30 through 2026-11-01 to a single 30-minute re-entry checkpoint;
-- spread the remaining prep backlog across November at roughly 1-2 hours per week alongside the Coursera course;
-- start University of Michigan's *Applied Social Network Analysis in Python* in November and complete it by 2026-12-13, ahead of the employer's FY27 Q1 deadline.
+- stop carrying the prep backlog forward into every week; defer the remaining prep work to January 2027;
+- satisfy the FY27 Q1 employer requirement with DeepLearning.AI's *Machine Learning in Production*, which is materially shorter than the Michigan network course and directly supports MLOps and Autonomous Warfare Command assurance themes;
+- complete the Q1 course by 2026-12-06, before the Dec 9 travel block and ahead of the employer's Dec 15 deadline;
+- move University of Michigan's *Applied Social Network Analysis in Python* to FY27 Q2, beginning after the January prep reset and late-January SHIELD residency;
+- schedule no learning tasks inside the three travel windows above.
+
 
 ## Live syllabus convention
 
@@ -121,7 +125,7 @@ Any personal technical experimentation must use public, synthetic, or otherwise 
 
 ### Online/platform resources
 
-- Coursera — primary structured course platform; FY27 Q1 course is University of Michigan's *Applied Social Network Analysis in Python*, beginning in November 2026 with planned completion by 2026-12-13
+- Coursera — primary structured course platform; FY27 Q1 course is DeepLearning.AI's *Machine Learning in Production*, targeted for completion by 2026-12-06; University of Michigan's *Applied Social Network Analysis in Python* moves to FY27 Q2
 - DoD MWR O'Reilly — technical reference library
 - USC SHIELD — strategic/engineering/policy integration
 - Stanford CS231n — advanced computer-vision supplement
@@ -477,6 +481,7 @@ Update the context revision/date and record a concise change summary. Keep imple
 
 ## Revision history
 
+- **Revision 7 — 2026-11-18:** reset the schedule after continued work overload; incorporated verified travel and work constraints through Jan 2; deferred the prep backlog to January; changed FY27 Q1 Coursera to *Machine Learning in Production* with a Dec 6 target; moved *Applied Social Network Analysis in Python* to FY27 Q2; and updated Todoist accordingly.
 - **Revision 6 — 2026-10-21:** recorded the work/travel interruption through Oct 29; lightened the schedule through Nov 1; rescheduled the remaining prep backlog across November; and moved the FY27 Q1 Coursera course start into November with *Applied Social Network Analysis in Python* planned for completion by Dec 13 while preserving the 6-8 hour weekly ceiling.
 - **Revision 5 — 2026-10-12:** recorded the user-reported USC SHIELD capstone focus on Autonomous Warfare Command; added a cross-cutting autonomous-command analytical frame and learning outcome; mapped technical strands to the capstone; recorded the updated Daily Reading Brief integration without adding a separate workload stream.
 - **Revision 4 — 2026-10-04:** recorded the learner-reported pause and verified Todoist backlog; rescheduled prep recovery to Oct 12–23 around the first SHIELD residency while preserving the Q1 Coursera completion target; updated the live syllabus accordingly.
