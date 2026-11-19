@@ -2,7 +2,7 @@
 title: GPT Learning Syllabus
 program: gpt_learning
 document_role: live_curriculum_status
-context_revision: 7
+context_revision: 8
 last_updated: 2026-11-18
 progress_as_of: 2026-11-18
 program_start: 2026-10-01
@@ -30,14 +30,13 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 
 **Progress as of 2026-11-18**
 
-- Program state: schedule reset after continued work overload; prep recovery is deferred to January 2027.
-- Verified Todoist state: 15 active learning tasks and no completed `GPT_Learning` tasks since Oct 21.
+- Program state: schedule reset remains necessary after continued work overload; no new mastery evidence has been inspected.
+- Verified Todoist state before this replan: 15 active learning tasks and no completed `GPT_Learning` tasks since Oct 21.
 - Upcoming travel verified from calendar: Nov 23-28 (New England), Dec 9-14 (Myrtle Beach), and Dec 22-26 (Pennsylvania).
-- Several 12-hour workday blocks further constrain weeknight study.
-- Immediate priority: complete one employer-required Coursera course in Q1 without exceeding the 6-8 hour weekly ceiling.
-- Q1 course changed to DeepLearning.AI *Machine Learning in Production*, targeted for completion Dec 6 and hard deadline Dec 15.
-- Michigan *Applied Social Network Analysis in Python* moves to Q2.
-- Remaining prep tasks move to Jan 4-20, 2027; no prep backlog tasks are scheduled in the holiday/travel period.
+- Employer FY27 Q1 completion date is user-reported as flexible into January.
+- Q1 course remains University of Michigan *Applied Social Network Analysis in Python*.
+- Internal course completion target: Jan 17, 2027; buffer through Jan 24.
+- Remaining prep work is interleaved Jan 4-22 rather than forced into the holiday period.
 - Latest Obsidian weekly synthesis/review content was not inspected in this update.
 
 
@@ -113,17 +112,17 @@ All technical demonstrations for this strand must use public, synthetic, or appr
 
 | Quarter | Required completed course | Target completion | Program role | Status |
 |---|---|---:|---|---|
-| FY27 Q1: Oct-Dec 2026 | DeepLearning.AI — *Machine Learning in Production* | Target 2026-12-06; hard deadline 2026-12-15 | Production ML lifecycle, deployment patterns, monitoring, error analysis, data quality, provenance, drift; direct Autonomous Warfare Command assurance tie-in | Active/planned |
-| FY27 Q2: Jan-Mar 2027 | University of Michigan — *Applied Social Network Analysis in Python* | Begin 2027-02-01; complete by 2027-03-31 | NetworkX, connectivity/robustness, centrality, network evolution/link prediction; direct command-network tie-in | Planned |
+| FY27 Q1: Oct-Dec 2026, flexible into Jan 2027 | University of Michigan — *Applied Social Network Analysis in Python* | Target 2027-01-17; buffer 2027-01-24 | NetworkX, connectivity/robustness, centrality, network evolution/link prediction; direct Autonomous Warfare Command C2 tie-in | Active/planned |
+| FY27 Q2: Jan-Mar 2027 | University of Michigan — *Network Modeling and Analysis in Python* | Begin after late-Jan SHIELD residency; complete by 2027-03-31 | Communities, generative network models, diffusion, influence | Planned |
 | FY27 Q3: Apr-Jun 2027 | DeepLearning.AI — *Convolutional Neural Networks* | 2027-06-20 | CNNs, transfer learning, detection, segmentation | Planned |
-| FY27 Q4: Jul-Sep 2027 | TBD by June 2027; prefer advanced network/temporal or practical MLOps course based on demonstrated gaps | 2027-09-12 target | Fill the strongest remaining gap rather than duplicate Q1 content | Planned |
+| FY27 Q4: Jul-Sep 2027 | DeepLearning.AI — *Machine Learning in Production* or a more advanced MLOps course if equivalent material is already demonstrated | 2027-09-12 target | Production ML lifecycle, monitoring, drift, deployment reasoning | Planned |
 
-Target dates should remain comfortably before quarter-end when possible.
+The Q1 date is intentionally allowed to cross the calendar/fiscal-quarter boundary based on the learner's report that the employer deadline is flexible.
 
 
 ## 12-month syllabus
 
-### Preparation recovery — deferred to January 4–20, 2027
+### Preparation recovery — January 4–22, 2027
 
 **Primary outcome:** `prep-reproducible-workflow`
 
@@ -137,7 +136,7 @@ Target dates should remain comfortably before quarter-end when possible.
 - first public-data baseline workflow
 - initial error analysis and reproducibility checks
 
-**Estimated effort:** approximately 9 hours total across Jan 4–20, distributed over three weeks. No prep backlog work is scheduled during the Nov–Dec travel/holiday period.
+**Estimated effort:** approximately 9 hours total across Jan 4–22, interleaved with the final network-course modules. Planned combined load is about 6.5 h for Jan 4–10, 7.5 h for Jan 11–17, and 3 h for Jan 18–24.
 
 **Evidence of completion**
 - learner can explain the data flow and validation choices;
@@ -154,40 +153,48 @@ Target dates should remain comfortably before quarter-end when possible.
 
 ---
 
-### November–December 2026 — Q1 production-ML reset
+### November 2026–January 2027 — Q1 network-analysis course
 
-**Primary outcomes:** `mlops-reproducibility`, support to `classical-ml-evaluation` and `autonomous-command-integration`
+**Primary outcomes:** `network-analysis`, preparation for `temporal-graph-validation`, support to `autonomous-command-integration`
 
-**Primary structured course:** no fixed Q4 course yet; select by June 2027 based on demonstrated gaps, with preference for advanced network/temporal modeling or practical MLOps.
+**Primary structured course:** University of Michigan *Applied Social Network Analysis in Python*.
 
-**Why this replaces the network course in Q1**
-- current Coursera workload is roughly 11 hours versus roughly 30 hours for Michigan's network-analysis course;
-- the shorter course is compatible with verified travel/work constraints and the Dec 15 employer deadline;
-- deployment, monitoring, error analysis, data quality, provenance, and drift are directly relevant to reliable autonomous command systems.
+**Current course structure**
+- Module 1 — network fundamentals / NetworkX: ~7 h
+- Module 2 — connectivity and robustness: ~6 h
+- Module 3 — influence and centralization: ~5 h
+- Module 4 — network evolution and link prediction: ~8 h
 
 **Planned progression**
-- Nov 21: Module 1, part 1 — 1.5 h
-- Nov 22: finish Module 1 — 1.5 h
+- Nov 21: Module 1 part 1 — 2 h
+- Nov 22: Module 1 part 2 — 2 h
 - Nov 23-28: Thanksgiving travel — no scheduled coursework
-- Nov 29: Module 2, part 1 — 1.5 h
+- Nov 29: finish Module 1 — 3 h
 - Nov 30-Dec 4: 12-hour workday block — no scheduled coursework
-- Dec 5: finish Module 2 and start Module 3 — 3 h
-- Dec 6: finish Module 3, course assessments, and certificate — 3.5 h
+- Dec 5: Module 2 part 1 — 3 h
 - Dec 9-14: Myrtle Beach travel — no scheduled coursework
+- Dec 19: finish Module 2 — 3 h
 - Dec 22-26: Christmas travel — no scheduled coursework
+- Dec 27: Module 3 part 1 — 2.5 h
+- Jan 3: finish Module 3 — 2.5 h
+- Jan 9: Module 4 part 1 — 3 h
+- Jan 16: Module 4 part 2 — 3 h
+- Jan 17: finish Module 4 and certificate — 2 h
+- Jan 18-24: schedule buffer; no additional course content planned unless needed
 
-**Estimated effort:** approximately 11 hours total before Dec 9, never stacked on travel days.
+**Estimated effort:** approximately 26 hours total, distributed around verified travel/work constraints.
 
 **Evidence of completion**
-- Coursera certificate earned by Dec 15, preferably Dec 6;
-- explain the ML production lifecycle and compare deployment patterns;
-- identify monitoring, drift, provenance, and data-quality risks;
-- explain why aggregate error can conceal important slices/failure modes;
-- produce a concise Obsidian synthesis connecting these concepts to Autonomous Warfare Command assurance.
+- Coursera certificate earned;
+- explain why a graph representation is appropriate for a stated problem and what it omits;
+- interpret connectivity/robustness measures with caveats;
+- select and defend a centrality measure;
+- explain generation-model assumptions and link-prediction limitations;
+- produce a concise Obsidian synthesis connecting the course to public/synthetic Autonomous Warfare Command architecture and assurance questions.
 
-**Obsidian destination:** `50 - Knowledge/Concepts` for durable concepts and `20 - Moments/Syntheses/2026` for course synthesis where appropriate.
+**Obsidian destination:** `50 - Knowledge/Concepts` for durable concepts and `20 - Moments/Syntheses/2027` for the completed course synthesis.
 
-**Git destination:** no mandatory Git artifact; only preserve independently useful adapted labs or implementation work.
+**Git destination:** `coursework/04_network_science/` only for independently useful public exercises; required Coursera code may remain in the course environment.
 
 **Status:** Active/planned.
 
@@ -196,7 +203,7 @@ Target dates should remain comfortably before quarter-end when possible.
 
 **Primary outcomes:** `network-analysis`, `deep-learning-training`, continued `causal-identification`
 
-**Primary structured course:** University of Michigan *Applied Social Network Analysis in Python* (begin after January prep recovery and the late-January SHIELD residency).
+**Primary structured course:** University of Michigan *Network Modeling and Analysis in Python* (begin after Q1 course completion and the late-January SHIELD residency).
 
 **Supporting resources**
 - Wasserman & Faust
@@ -205,10 +212,10 @@ Target dates should remain comfortably before quarter-end when possible.
 - *Mathematics for Machine Learning* — vector calculus/optimization refresh
 
 **Planned progression**
-- January 4-20: close the deferred prep backlog and identify carry-forward gaps.
+- January 4-22: close the deferred prep backlog while finishing the Q1 network course.
 - Late January: SHIELD residency takes priority.
-- February: network representation, connectivity/robustness, and centrality in *Applied Social Network Analysis in Python*; use public/synthetic command-network examples.
-- March: network evolution and link prediction; connect results to dynamic C2 architectures and prepare for later graph/temporal ML.
+- February: begin *Network Modeling and Analysis in Python* with communities, assortativity, structural roles, and generative network models.
+- March: diffusion, influence, and related network-modeling work; connect results to changing information/command architectures and later graph/temporal ML.
 
 **Estimated effort:** 6–8 h/week normally, reduced during SHIELD sessions.
 
@@ -431,7 +438,8 @@ This table records only inspected or otherwise clearly identified program-level 
 | 2026-10-12 | `shield-policy-integration` execution status | USC SHIELD Residency 1 synthesis task marked complete in Todoist | Todoist | Execution evidence only; synthesis content not inspected |
 | 2026-10-13 | Prep execution status | NumPy/pandas refresher task marked complete in Todoist | Todoist | Execution evidence only; notebook not inspected |
 | 2026-10-21 | Schedule/capacity | Nine prep tasks remained open; learner reported heavy work demands and travel through Oct 29; backlog and Coursera milestones rescheduled | Todoist + user report | Schedule evidence only; no mastery inference |
-| 2026-11-18 | Schedule/capacity reset | 15 active learning tasks, no completions since Oct 21; three travel blocks and multiple 12-hour workday blocks verified on calendar; Q1 course changed and prep deferred | Todoist + Google Calendar + user report | Schedule evidence only; no mastery inference |
+| 2026-11-18 | Schedule/capacity reset | 15 active learning tasks, no completions since Oct 21; three travel blocks and multiple 12-hour workday blocks verified on calendar | Todoist + Google Calendar + user report | Schedule evidence only; no mastery inference |
+| 2026-11-18 | Q1 course decision | Learner explicitly chose to retain *Applied Social Network Analysis in Python* and reported employer deadline flexibility into the new year; course rescheduled to Jan 17 target/Jan 24 buffer | user instruction + Todoist | Planning evidence only; no mastery inference |
 
 ## Maintenance rules
 
