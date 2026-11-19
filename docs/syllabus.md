@@ -2,9 +2,9 @@
 title: GPT Learning Syllabus
 program: gpt_learning
 document_role: live_curriculum_status
-context_revision: 6
-last_updated: 2026-10-21
-progress_as_of: 2026-10-21
+context_revision: 7
+last_updated: 2026-11-18
+progress_as_of: 2026-11-18
 program_start: 2026-10-01
 program_end: 2027-09-30
 weekly_budget: 6-8 hours
@@ -28,19 +28,18 @@ This file is **not** the execution task tracker. Todoist project `GPT_Learning` 
 
 ## Current status
 
-**Progress as of 2026-10-21**
+**Progress as of 2026-11-18**
 
-- Current phase: `00_prep`
-- Program state: preparation recovery overlapping the formal program, with travel-limited capacity through Oct 29 and a November Coursera start
-- User-reported USC SHIELD capstone focus: **Autonomous Warfare Command**
-- Active deliverable: Prep ML Workflow
-- Verified completed learning outcomes: none identified in the available repository/context evidence
-- Verified repository evidence: learning-program structure, project briefs, resource indexes, templates, environment conventions, and repository integration guidance exist
-- Current near-term focus: NumPy/pandas fluency, Git/testing/reproducibility, linear algebra, probability/statistics, and first reproducible classical-ML workflow
-- Verified execution status: Todoist shows the Sep 21–Oct 4 prep tasks still open after an approximately one-week pause reported by the learner.
-- Recovery schedule: complete foundational backlog Oct 12–18 and Prep ML Workflow Oct 19–23; begin the Q1 Coursera course after prep closes. Integrate capstone framing into the existing SHIELD synthesis/review time rather than adding separate hours.
-- First USC SHIELD residency window has passed; the Residency 1 synthesis remains open in Todoist and should capture the Autonomous Warfare Command capstone framing without adding a separate workload stream.
-- Detailed weekly-review evidence: **not inspected in this update**. The latest review identified by the portable context is `20 - Moments/Learning Logs/2026/2026-W38 Learning Review.md`; its contents must be supplied or connected before this file is updated from that evidence.
+- Program state: schedule reset after continued work overload; prep recovery is deferred to January 2027.
+- Verified Todoist state: 15 active learning tasks and no completed `GPT_Learning` tasks since Oct 21.
+- Upcoming travel verified from calendar: Nov 23-28 (New England), Dec 9-14 (Myrtle Beach), and Dec 22-26 (Pennsylvania).
+- Several 12-hour workday blocks further constrain weeknight study.
+- Immediate priority: complete one employer-required Coursera course in Q1 without exceeding the 6-8 hour weekly ceiling.
+- Q1 course changed to DeepLearning.AI *Machine Learning in Production*, targeted for completion Dec 6 and hard deadline Dec 15.
+- Michigan *Applied Social Network Analysis in Python* moves to Q2.
+- Remaining prep tasks move to Jan 4-20, 2027; no prep backlog tasks are scheduled in the holiday/travel period.
+- Latest Obsidian weekly synthesis/review content was not inspected in this update.
+
 
 ### Status vocabulary
 
@@ -114,16 +113,17 @@ All technical demonstrations for this strand must use public, synthetic, or appr
 
 | Quarter | Required completed course | Target completion | Program role | Status |
 |---|---|---:|---|---|
-| FY27 Q1: Oct–Dec 2026 | University of Michigan — *Applied Social Network Analysis in Python* | Start 2026-11-07; finish 2026-12-13; deadline 2026-12-15 | Classical network analysis, NetworkX, connectivity/robustness, centrality, network evolution/link prediction; direct Autonomous Warfare Command C2 tie-in | Planned |
-| FY27 Q2: Jan–Mar 2027 | University of Michigan — *Network Modeling and Analysis in Python* | 2027-03-14 | Communities, network models, diffusion, influence | Planned |
-| FY27 Q3: Apr–Jun 2027 | DeepLearning.AI — *Convolutional Neural Networks* | 2027-06-20 | CNNs, transfer learning, detection, segmentation | Planned |
-| FY27 Q4: Jul–Sep 2027 | DeepLearning.AI — *Machine Learning in Production* | 2027-09-12 | Production ML lifecycle, monitoring, drift, deployment reasoning | Planned |
+| FY27 Q1: Oct-Dec 2026 | DeepLearning.AI — *Machine Learning in Production* | Target 2026-12-06; hard deadline 2026-12-15 | Production ML lifecycle, deployment patterns, monitoring, error analysis, data quality, provenance, drift; direct Autonomous Warfare Command assurance tie-in | Active/planned |
+| FY27 Q2: Jan-Mar 2027 | University of Michigan — *Applied Social Network Analysis in Python* | Begin 2027-02-01; complete by 2027-03-31 | NetworkX, connectivity/robustness, centrality, network evolution/link prediction; direct command-network tie-in | Planned |
+| FY27 Q3: Apr-Jun 2027 | DeepLearning.AI — *Convolutional Neural Networks* | 2027-06-20 | CNNs, transfer learning, detection, segmentation | Planned |
+| FY27 Q4: Jul-Sep 2027 | TBD by June 2027; prefer advanced network/temporal or practical MLOps course based on demonstrated gaps | 2027-09-12 target | Fill the strongest remaining gap rather than duplicate Q1 content | Planned |
 
-Target dates are intentionally before quarter-end to provide schedule margin.
+Target dates should remain comfortably before quarter-end when possible.
+
 
 ## 12-month syllabus
 
-### Preparation recovery — through November 25, 2026
+### Preparation recovery — deferred to January 4–20, 2027
 
 **Primary outcome:** `prep-reproducible-workflow`
 
@@ -137,7 +137,7 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - first public-data baseline workflow
 - initial error analysis and reproducibility checks
 
-**Estimated effort:** no scheduled coursework through Oct 29; 30 minutes on Nov 1; then roughly 1–2 h/week of remaining prep work during November alongside Coursera. Do not exceed the normal 6–8 h weekly ceiling.
+**Estimated effort:** approximately 9 hours total across Jan 4–20, distributed over three weeks. No prep backlog work is scheduled during the Nov–Dec travel/holiday period.
 
 **Evidence of completion**
 - learner can explain the data flow and validation choices;
@@ -154,49 +154,49 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 
 ---
 
-### October–December 2026 — Network-analysis foundation + causal reasoning
+### November–December 2026 — Q1 production-ML reset
 
-**Primary outcomes:** `network-analysis`, `causal-identification`, continued `math-stats-foundations`
+**Primary outcomes:** `mlops-reproducibility`, support to `classical-ml-evaluation` and `autonomous-command-integration`
 
-**Primary structured course:** *Applied Social Network Analysis in Python*.
+**Primary structured course:** no fixed Q4 course yet; select by June 2027 based on demonstrated gaps, with preference for advanced network/temporal modeling or practical MLOps.
 
-**Supporting resources**
-- Wasserman & Faust — *Social Network Analysis: Methods and Applications*
-- Larry Wasserman — *All of Statistics*
-- Deisenroth, Faisal, and Ong — *Mathematics for Machine Learning*
-- Scott Cunningham — *Causal Inference: The Remix*
-- DoD MWR O'Reilly as targeted reference
-- USC SHIELD strategic/policy work
+**Why this replaces the network course in Q1**
+- current Coursera workload is roughly 11 hours versus roughly 30 hours for Michigan's network-analysis course;
+- the shorter course is compatible with verified travel/work constraints and the Dec 15 employer deadline;
+- deployment, monitoring, error analysis, data quality, provenance, and drift are directly relevant to reliable autonomous command systems.
 
 **Planned progression**
-- October 5–11: SHIELD preparation/residency; no attempt to catch up technical backlog.
-- October 12–23: finish deferred prep foundations and the Prep ML Workflow.
-- October 24 onward: begin graph representation, connectivity, and NetworkX basics in *Applied Social Network Analysis in Python*.
-- November: centrality, network measures, DAGs, confounding, potential outcomes; where useful, frame examples around command-network robustness, delegation, and human-machine decision policies
-- December: network evolution/link prediction, course final work, certificate completion, synthesis
+- Nov 21: Module 1, part 1 — 1.5 h
+- Nov 22: finish Module 1 — 1.5 h
+- Nov 23-28: Thanksgiving travel — no scheduled coursework
+- Nov 29: Module 2, part 1 — 1.5 h
+- Nov 30-Dec 4: 12-hour workday block — no scheduled coursework
+- Dec 5: finish Module 2 and start Module 3 — 3 h
+- Dec 6: finish Module 3, course assessments, and certificate — 3.5 h
+- Dec 9-14: Myrtle Beach travel — no scheduled coursework
+- Dec 22-26: Christmas travel — no scheduled coursework
 
-**Estimated effort:** 6–8 h/week normally; 0–2 h of independent work during heavy SHIELD weeks.
+**Estimated effort:** approximately 11 hours total before Dec 9, never stacked on travel days.
 
 **Evidence of completion**
-- explain why a graph representation is appropriate for a chosen public-data problem;
-- compute and interpret structural measures with caveats;
-- demonstrate at least one link-prediction or network-evolution exercise;
-- state one causal question using a DAG and identify plausible confounders/colliders;
-- Coursera certificate by target date.
+- Coursera certificate earned by Dec 15, preferably Dec 6;
+- explain the ML production lifecycle and compare deployment patterns;
+- identify monitoring, drift, provenance, and data-quality risks;
+- explain why aggregate error can conceal important slices/failure modes;
+- produce a concise Obsidian synthesis connecting these concepts to Autonomous Warfare Command assurance.
 
-**Git destination:** `coursework/04_network_science/` and, where useful, `projects/graph_temporal/`.
+**Obsidian destination:** `50 - Knowledge/Concepts` for durable concepts and `20 - Moments/Syntheses/2026` for course synthesis where appropriate.
 
-**Obsidian destination:** `60 - Sources/Courses`, `50 - Knowledge/Concepts`, course sessions under `20 - Moments/Course Sessions`, and weekly reviews.
+**Git destination:** no mandatory Git artifact; only preserve independently useful adapted labs or implementation work.
 
-**Status:** Planned.
+**Status:** Active/planned.
 
----
 
 ### January–March 2027 — Network modeling, diffusion, and deep-learning preparation
 
 **Primary outcomes:** `network-analysis`, `deep-learning-training`, continued `causal-identification`
 
-**Primary structured course:** *Network Modeling and Analysis in Python*.
+**Primary structured course:** University of Michigan *Applied Social Network Analysis in Python* (begin after January prep recovery and the late-January SHIELD residency).
 
 **Supporting resources**
 - Wasserman & Faust
@@ -205,9 +205,10 @@ Target dates are intentionally before quarter-end to provide schedule margin.
 - *Mathematics for Machine Learning* — vector calculus/optimization refresh
 
 **Planned progression**
-- January: communities, cohesion, assortativity, structural roles; compare centralized and distributed command-network structures using public/synthetic examples
-- February: generative network models and diffusion; use diffusion/robustness concepts to reason about information propagation, coordination, and failure in autonomous C2
-- March: influence models, temporal framing, neural-network prerequisites; connect temporal/network concepts to changing communications, tasking, and command dependencies
+- January 4-20: close the deferred prep backlog and identify carry-forward gaps.
+- Late January: SHIELD residency takes priority.
+- February: network representation, connectivity/robustness, and centrality in *Applied Social Network Analysis in Python*; use public/synthetic command-network examples.
+- March: network evolution and link prediction; connect results to dynamic C2 architectures and prepare for later graph/temporal ML.
 
 **Estimated effort:** 6–8 h/week normally, reduced during SHIELD sessions.
 
@@ -430,6 +431,7 @@ This table records only inspected or otherwise clearly identified program-level 
 | 2026-10-12 | `shield-policy-integration` execution status | USC SHIELD Residency 1 synthesis task marked complete in Todoist | Todoist | Execution evidence only; synthesis content not inspected |
 | 2026-10-13 | Prep execution status | NumPy/pandas refresher task marked complete in Todoist | Todoist | Execution evidence only; notebook not inspected |
 | 2026-10-21 | Schedule/capacity | Nine prep tasks remained open; learner reported heavy work demands and travel through Oct 29; backlog and Coursera milestones rescheduled | Todoist + user report | Schedule evidence only; no mastery inference |
+| 2026-11-18 | Schedule/capacity reset | 15 active learning tasks, no completions since Oct 21; three travel blocks and multiple 12-hour workday blocks verified on calendar; Q1 course changed and prep deferred | Todoist + Google Calendar + user report | Schedule evidence only; no mastery inference |
 
 ## Maintenance rules
 
