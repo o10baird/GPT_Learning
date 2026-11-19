@@ -1,5 +1,5 @@
 ---
-context_revision: 7
+context_revision: 8
 last_updated: 2026-11-18
 progress_as_of: 2026-11-18
 ---
@@ -34,27 +34,31 @@ Supporting foundations:
 
 - Formal 12-month learning program: October 2026 through September 2027
 - Normal independent-learning budget: 6-8 hours per week
-- Employer requirement: complete at least one Coursera course per federal fiscal-year quarter during the formal program year
+- Employer requirement: complete at least one Coursera course per federal fiscal-year quarter during the formal program year; the FY27 Q1 deadline is user-reported as flexible and may extend into January 2027
 - USC SHIELD runs in parallel from October 2026 through April 2027
 - During USC residency/live-session weeks, USC replaces most independent technical study rather than being added on top
 - Temporary capacity adjustment: heavy work and multiple travel periods constrain learning through the end of December 2026. Preserve the normal 6-8 hour ceiling, but do not attempt backlog catch-up during travel or 12-hour workday blocks.
 
 ## Current verified execution state (progress as of 2026-11-18)
 
-Direct Todoist inspection on 2026-11-18 found 15 active `GPT_Learning` tasks and no completed tasks since 2026-10-21. This confirms that the prior November catch-up plan was not executed. No learning outcome is marked complete from task state alone.
+Direct Todoist inspection on 2026-11-18 found 15 active `GPT_Learning` tasks and no completed tasks since 2026-10-21. No learning outcome is marked complete from task state alone.
 
 Calendar constraints inspected across the primary, Cohort XIII, and Social Events calendars for the next 45 days include:
-- Thanksgiving travel in New England: 2026-11-23 through 2026-11-28, including long driving blocks;
-- Myrtle Beach travel: 2026-12-09 through 2026-12-14, including travel days;
+- Thanksgiving travel in New England: 2026-11-23 through 2026-11-28;
+- Myrtle Beach travel: 2026-12-09 through 2026-12-14;
 - Christmas travel in Pennsylvania: 2026-12-22 through 2026-12-26;
-- several 12-hour workday blocks, including Nov 18-20, Nov 30-Dec 4, Dec 7-8, Dec 15-18, Dec 21-22, and Dec 28-30.
+- several 12-hour workday blocks across late November and December.
+
+User decision on 2026-11-18:
+- keep University of Michigan's *Applied Social Network Analysis in Python* as the next Coursera course;
+- treat the employer's FY27 Q1 deadline as flexible enough to extend into January 2027.
 
 Near-term strategy:
-- stop carrying the prep backlog forward into every week; defer the remaining prep work to January 2027;
-- satisfy the FY27 Q1 employer requirement with DeepLearning.AI's *Machine Learning in Production*, which is materially shorter than the Michigan network course and directly supports MLOps and Autonomous Warfare Command assurance themes;
-- complete the Q1 course by 2026-12-06, before the Dec 9 travel block and ahead of the employer's Dec 15 deadline;
-- move University of Michigan's *Applied Social Network Analysis in Python* to FY27 Q2, beginning after the January prep reset and late-January SHIELD residency;
-- schedule no learning tasks inside the three travel windows above.
+- use the course's module-level workload (approximately 26 hours: 7 + 6 + 5 + 8) and spread it across non-travel weekends;
+- target course completion on 2027-01-17 with a one-week buffer through 2027-01-24;
+- keep all three holiday travel windows free of scheduled learning tasks;
+- retain the January prep recovery, but stagger prep and Coursera work so weekly load remains at or below the normal 6-8 hour ceiling;
+- begin the Q2 network-modeling course only after Q1 completion and the late-January SHIELD residency.
 
 
 ## Live syllabus convention
@@ -125,7 +129,7 @@ Any personal technical experimentation must use public, synthetic, or otherwise 
 
 ### Online/platform resources
 
-- Coursera — primary structured course platform; FY27 Q1 course is DeepLearning.AI's *Machine Learning in Production*, targeted for completion by 2026-12-06; University of Michigan's *Applied Social Network Analysis in Python* moves to FY27 Q2
+- Coursera — primary structured course platform; FY27 Q1 course remains University of Michigan's *Applied Social Network Analysis in Python*, targeted for completion by 2027-01-17 with a buffer through 2027-01-24; DeepLearning.AI's *Machine Learning in Production* returns to a later MLOps phase
 - DoD MWR O'Reilly — technical reference library
 - USC SHIELD — strategic/engineering/policy integration
 - Stanford CS231n — advanced computer-vision supplement
@@ -481,6 +485,7 @@ Update the context revision/date and record a concise change summary. Keep imple
 
 ## Revision history
 
+- **Revision 8 — 2026-11-18:** reversed the Q1 course substitution at the learner's direction; retained *Applied Social Network Analysis in Python* as FY27 Q1, extended the flexible employer deadline into January, scheduled the course around verified holiday travel with a Jan 17 target/Jan 24 buffer, interleaved January prep within the 6-8 hour ceiling, and restored *Machine Learning in Production* to a later MLOps phase.
 - **Revision 7 — 2026-11-18:** reset the schedule after continued work overload; incorporated verified travel and work constraints through Jan 2; deferred the prep backlog to January; changed FY27 Q1 Coursera to *Machine Learning in Production* with a Dec 6 target; moved *Applied Social Network Analysis in Python* to FY27 Q2; and updated Todoist accordingly.
 - **Revision 6 — 2026-10-21:** recorded the work/travel interruption through Oct 29; lightened the schedule through Nov 1; rescheduled the remaining prep backlog across November; and moved the FY27 Q1 Coursera course start into November with *Applied Social Network Analysis in Python* planned for completion by Dec 13 while preserving the 6-8 hour weekly ceiling.
 - **Revision 5 — 2026-10-12:** recorded the user-reported USC SHIELD capstone focus on Autonomous Warfare Command; added a cross-cutting autonomous-command analytical frame and learning outcome; mapped technical strands to the capstone; recorded the updated Daily Reading Brief integration without adding a separate workload stream.
